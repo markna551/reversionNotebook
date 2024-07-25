@@ -1,0 +1,198 @@
+{
+  "paragraphs": [
+    {
+      "title": "",
+      "text": "%python\nimport requests\nrunParallelLogUrl \u003d \"https://49.0.196.113:11010/auth/login\"\nverify \u003d False\n# if isVerify \u003d\u003d 1:\n#     verify \u003d True\nuser \u003d {\n    \"username\" : \"auttakrit\",\n    \"password\" : \"12345678Ab!\"\n}\ntenantId \u003d 1\nbody \u003d {\"user\" : user,\n    \"tenantId\": tenantId\n}\nresponse \u003d requests.post(runParallelLogUrl, json \u003d body, verify\u003dverify)\nprint(response.json().get(\u0027oauth\u0027).get(\u0027access_token\u0027))\n# if response.status_code \u003d\u003d 200:\n#     return response.json()\n# else:\n#     if response.json() is not None:\n#         raise ValueError(f\"Run parallel fail case by: {response.json().get(\u0027message\u0027)}\")\n#     raise ValueError(\"Run parallel fail\")\n",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-18 11:29:00.918",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Fail to execute line 2: import requests\nTraceback (most recent call last):\n  File \"/tmp/python6638474587295938966/zeppelin_python.py\", line 162, in \u003cmodule\u003e\n    exec(code, _zcUserQueryNameSpace)\n  File \"\u003cstdin\u003e\", line 2, in \u003cmodule\u003e\nModuleNotFoundError: No module named \u0027requests\u0027\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721206077529_1834806381",
+      "id": "paragraph_1721206077529_1834806381",
+      "dateCreated": "2024-07-17 15:47:57.530",
+      "dateStarted": "2024-07-18 11:29:00.922",
+      "dateFinished": "2024-07-18 11:29:02.988",
+      "status": "ERROR"
+    },
+    {
+      "text": "%pyspark\n\nprint(123)\n",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-25 02:15:30.813",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "123\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721206103482_1750006957",
+      "id": "paragraph_1721206103482_1750006957",
+      "dateCreated": "2024-07-17 15:48:23.482",
+      "dateStarted": "2024-07-25 02:15:30.817",
+      "dateFinished": "2024-07-25 02:15:30.852",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%python\n\nprint(123)\n",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-23 17:41:18.871",
+      "progress": 0,
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "123\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721206115075_91595819",
+      "id": "paragraph_1721206115075_91595819",
+      "dateCreated": "2024-07-17 15:48:35.075",
+      "dateStarted": "2024-07-23 17:41:18.880",
+      "dateFinished": "2024-07-23 17:41:21.284",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%java\n\nprintln(123)\n",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-23 17:41:56.369",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "java",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/java",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "syntax error @[3,1]"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721731278877_841078025",
+      "id": "paragraph_1721731278877_841078025",
+      "dateCreated": "2024-07-23 17:41:18.877",
+      "dateStarted": "2024-07-23 17:41:56.373",
+      "dateFinished": "2024-07-23 17:41:58.970",
+      "status": "ERROR"
+    },
+    {
+      "text": "",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-24 12:38:43.757",
+      "progress": 0,
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721731300434_885691669",
+      "id": "paragraph_1721731300434_885691669",
+      "dateCreated": "2024-07-23 17:41:40.434",
+      "status": "READY"
+    }
+  ],
+  "name": "testa",
+  "id": "2K2DUN3HE",
+  "defaultInterpreterGroup": "spark",
+  "version": "0.11.1",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": true
+  },
+  "info": {}
+}
