@@ -1,0 +1,369 @@
+{
+  "paragraphs": [
+    {
+      "text": "%python\n%python\n\nimport numpy222",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-25 23:10:13.407",
+      "progress": 0,
+      "config": {
+        "editorMode": "ace/mode/python",
+        "editorHide": false,
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Traceback (most recent call last):\n  File \"/tmp/python5878545735001340904/zeppelin_python.py\", line 152, in \u003cmodule\u003e\n    code \u003d compile(\u0027\\n\u0027.join(stmts), \u0027\u003cstdin\u003e\u0027, \u0027exec\u0027, ast.PyCF_ONLY_AST, 1)\n  File \"\u003cstdin\u003e\", line 2\n    %python\n    ^\nSyntaxError: invalid syntax\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721753124481_888538073",
+      "id": "20240723-234524_1113753577",
+      "dateCreated": "2024-07-23 23:45:24.481",
+      "dateStarted": "2024-07-25 23:10:00.922",
+      "dateFinished": "2024-07-25 23:10:00.933",
+      "status": "ERROR"
+    },
+    {
+      "text": "%python\n%python\nimport os\n\ndef activate_virtualenv(venv_path):\n    activate_script \u003d os.path.join(venv_path, \u0027bin\u0027, \u0027activate_this.py\u0027)\n    with open(activate_script) as file_:\n        exec(file_.read(), dict(__file__\u003dactivate_script))\n\n# Paths to virtual environments\nvenv \u003d \"/home/blendata/bld-genesis-agent/project_path/bde_management/zeppelin_dev_2/virtualenvs/env2\"\n# Activate and use venv\nactivate_virtualenv(venv)\n",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-25 23:04:36.696",
+      "progress": 0,
+      "config": {
+        "editorMode": "ace/mode/python",
+        "editorHide": true,
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Traceback (most recent call last):\n  File \"/tmp/python2190106703209866848/zeppelin_python.py\", line 152, in \u003cmodule\u003e\n    code \u003d compile(\u0027\\n\u0027.join(stmts), \u0027\u003cstdin\u003e\u0027, \u0027exec\u0027, ast.PyCF_ONLY_AST, 1)\n  File \"\u003cstdin\u003e\", line 2\n    %python\n    ^\nSyntaxError: invalid syntax\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721753124481_1423913537",
+      "id": "20240723-234524_245930158",
+      "dateCreated": "2024-07-23 23:45:24.481",
+      "dateStarted": "2024-07-24 21:45:09.948",
+      "dateFinished": "2024-07-24 21:45:09.965",
+      "status": "ERROR"
+    },
+    {
+      "text": "%python\n%python\nimport os\n\ncwd \u003d os.getcwd() \nprint(\"Current working directory:\", cwd)\n",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-25 23:04:56.281",
+      "progress": 0,
+      "config": {
+        "editorMode": "ace/mode/python",
+        "editorHide": true,
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {},
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721753124481_1576778894",
+      "id": "20240723-234524_631223585",
+      "dateCreated": "2024-07-23 23:45:24.481",
+      "dateStarted": "2024-07-24 21:45:33.491",
+      "dateFinished": "2024-07-24 21:45:33.497",
+      "status": "ERROR"
+    },
+    {
+      "text": "%python\n%python\nimport os\n\ndef current_path(): \n    print(\"Current working directory before\") \n    print(os.getcwd()) \n    print() \ncurrent_path() \nos.chdir(\u0027../\u0027) \ncurrent_path() ",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-25 23:03:31.612",
+      "progress": 0,
+      "config": {
+        "editorMode": "ace/mode/python",
+        "editorHide": true,
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721753124481_36171601",
+      "id": "20240723-234524_1315788624",
+      "dateCreated": "2024-07-23 23:45:24.481",
+      "status": "READY"
+    },
+    {
+      "text": "%python\n%pyspark\nimport os\n\ndef activate_virtualenv(venv_path):\n    activate_script \u003d os.path.join(venv_path, \u0027bin\u0027, \u0027activate_this.py\u0027)\n    with open(activate_script) as file_:\n        exec(file_.read(), dict(__file__\u003dactivate_script))\n\n# Paths to virtual environments\nvenv \u003d \"/home/blendata/bld-genesis-agent/project_path/bde_management/zeppelin_dev_2/virtualenvs/env2\"\n# Activate and use venv\nactivate_virtualenv(venv)",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-25 23:04:42.699",
+      "progress": 0,
+      "config": {
+        "editorMode": "ace/mode/python",
+        "editorHide": true,
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721753124481_1125172464",
+      "id": "20240723-234524_409394363",
+      "dateCreated": "2024-07-23 23:45:24.481",
+      "status": "READY"
+    },
+    {
+      "text": "%python\n%pyspark\nfrom pyspark.sql import SparkSession\nspark \u003d SparkSession.builder.appName(\u0027appName\u0027).getOrCreate()\ndf \u003d spark.read.format(\u0027csv\u0027).option(\u0027header\u0027, True).load(\u0027/home/blendata/bld-genesis-agent/project_path/bde_management/zeppelin_dev_2/virtualenvs/testpy.csv\u0027)\ndf.show()",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-25 23:04:43.799",
+      "progress": 0,
+      "config": {
+        "editorMode": "ace/mode/python",
+        "editorHide": true,
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721753124482_1344475023",
+      "id": "20240723-234524_1388399345",
+      "dateCreated": "2024-07-23 23:45:24.482",
+      "status": "READY"
+    },
+    {
+      "text": "%python\n%python2\nimport os \n\ndef activate_virtualenv(venv_path):\n    activate_script \u003d os.path.join(venv_path, \u0027bin\u0027, \u0027activate_this.py\u0027)\n    with open(activate_script) as file_:\n        exec(file_.read(), dict(__file__\u003dactivate_script))\n\n# Paths to virtual environments\nvenv \u003d \"/home/blendata/bld-genesis-agent/project_path/bde_management/zeppelin_dev_2/virtualenvs/env2\"\n# Activate and use venv\nactivate_virtualenv(venv)",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-25 23:04:44.901",
+      "progress": 0,
+      "config": {
+        "editorMode": "ace/mode/python",
+        "editorHide": true,
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721753124482_2042266038",
+      "id": "20240723-234524_170904373",
+      "dateCreated": "2024-07-23 23:45:24.482",
+      "status": "READY"
+    },
+    {
+      "text": "%python\n%python2\nimport os\n\ncwd \u003d os.getcwd() \nprint(\"Current working directory:\", cwd)",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-25 23:04:46.355",
+      "progress": 0,
+      "config": {
+        "editorMode": "ace/mode/python",
+        "editorHide": true,
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721753124482_1194798659",
+      "id": "20240723-234524_777837303",
+      "dateCreated": "2024-07-23 23:45:24.482",
+      "status": "READY"
+    },
+    {
+      "text": "%python\n%python2\nimport os\n\ndef current_path(): \n    print(\"Current working directory before\") \n    print(os.getcwd()) \n    print() \ncurrent_path() \nos.chdir(\u0027../\u0027) \ncurrent_path() ",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-25 23:04:47.495",
+      "progress": 0,
+      "config": {
+        "editorMode": "ace/mode/python",
+        "editorHide": true,
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721753124482_355158536",
+      "id": "20240723-234524_7428227",
+      "dateCreated": "2024-07-23 23:45:24.482",
+      "status": "READY"
+    },
+    {
+      "text": "\n%python2\n",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-25 23:04:48.861",
+      "progress": 0,
+      "config": {
+        "editorMode": "ace/mode/python",
+        "editorHide": true,
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721753124482_1360202127",
+      "id": "20240723-234524_1488919742",
+      "dateCreated": "2024-07-23 23:45:24.482",
+      "status": "READY"
+    }
+  ],
+  "name": "Tana_Bank_Upload_ipynb",
+  "id": "2K5JCVTXZ",
+  "defaultInterpreterGroup": "spark",
+  "version": "0.11.1",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": true
+  },
+  "info": {
+    "isRunning": false
+  }
+}
