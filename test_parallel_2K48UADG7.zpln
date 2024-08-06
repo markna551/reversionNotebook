@@ -31,6 +31,47 @@
       "status": "READY"
     },
     {
+      "text": "%python\n\nprint(123)\n",
+      "user": "anonymous",
+      "dateUpdated": "2024-08-06 14:57:49.997",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "123\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1722931051676_1693186669",
+      "id": "paragraph_1722931051676_1693186669",
+      "dateCreated": "2024-08-06 14:57:31.676",
+      "dateStarted": "2024-08-06 14:57:50.008",
+      "dateFinished": "2024-08-06 14:57:52.942",
+      "status": "FINISHED"
+    },
+    {
       "text": "%spark\n\nprint(123)\n",
       "user": "anonymous",
       "dateUpdated": "2024-08-06 11:27:28.963",
