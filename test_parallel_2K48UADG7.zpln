@@ -1,0 +1,260 @@
+{
+  "paragraphs": [
+    {
+      "text": "%spark-vector.pyspark\n\na \u003d 3\nprint(a)\n",
+      "user": "anonymous",
+      "dateUpdated": "2024-08-02 11:38:36.266",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "org.apache.zeppelin.interpreter.InterpreterException: org.apache.zeppelin.interpreter.InterpreterException: java.lang.UnsatisfiedLinkError: /data/spark_dev_2_vector/tmp/gluten-dcc47887-9d92-4d58-b2b2-c2b2da97ec8c/jni/0db9c2eb-3060-4f9a-93a8-1d9888183f68/gluten-4291910617240121731/libarrow.so.1500.0.0: libzstd.so.1: cannot open shared object file: No such file or directory\n\tat org.apache.zeppelin.interpreter.LazyOpenInterpreter.open(LazyOpenInterpreter.java:76)\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer$InterpretJob.jobRun(RemoteInterpreterServer.java:861)\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer$InterpretJob.jobRun(RemoteInterpreterServer.java:769)\n\tat org.apache.zeppelin.scheduler.Job.run(Job.java:186)\n\tat org.apache.zeppelin.scheduler.AbstractScheduler.runJob(AbstractScheduler.java:135)\n\tat org.apache.zeppelin.scheduler.FIFOScheduler.lambda$runJobInScheduler$0(FIFOScheduler.java:42)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\nCaused by: org.apache.zeppelin.interpreter.InterpreterException: java.lang.UnsatisfiedLinkError: /data/spark_dev_2_vector/tmp/gluten-dcc47887-9d92-4d58-b2b2-c2b2da97ec8c/jni/0db9c2eb-3060-4f9a-93a8-1d9888183f68/gluten-4291910617240121731/libarrow.so.1500.0.0: libzstd.so.1: cannot open shared object file: No such file or directory\n\tat org.apache.zeppelin.interpreter.LazyOpenInterpreter.open(LazyOpenInterpreter.java:76)\n\tat org.apache.zeppelin.interpreter.Interpreter.getInterpreterInTheSameSessionByClassName(Interpreter.java:322)\n\tat org.apache.zeppelin.interpreter.Interpreter.getInterpreterInTheSameSessionByClassName(Interpreter.java:333)\n\tat org.apache.zeppelin.spark.PySparkInterpreter.open(PySparkInterpreter.java:90)\n\tat org.apache.zeppelin.interpreter.LazyOpenInterpreter.open(LazyOpenInterpreter.java:70)\n\t... 8 more\nCaused by: java.lang.UnsatisfiedLinkError: /data/spark_dev_2_vector/tmp/gluten-dcc47887-9d92-4d58-b2b2-c2b2da97ec8c/jni/0db9c2eb-3060-4f9a-93a8-1d9888183f68/gluten-4291910617240121731/libarrow.so.1500.0.0: libzstd.so.1: cannot open shared object file: No such file or directory\n\tat java.lang.ClassLoader$NativeLibrary.load(Native Method)\n\tat java.lang.ClassLoader.loadLibrary0(ClassLoader.java:1934)\n\tat java.lang.ClassLoader.loadLibrary(ClassLoader.java:1817)\n\tat java.lang.Runtime.load0(Runtime.java:782)\n\tat java.lang.System.load(System.java:1100)\n\tat org.apache.gluten.vectorized.JniLibLoader.loadFromPath0(JniLibLoader.java:103)\n\tat org.apache.gluten.vectorized.JniLibLoader.access$300(JniLibLoader.java:57)\n\tat org.apache.gluten.vectorized.JniLibLoader$JniLoadTransaction.loadWithLink(JniLibLoader.java:323)\n\tat org.apache.gluten.vectorized.JniLibLoader$JniLoadTransaction.lambda$commit$1(JniLibLoader.java:273)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)\n\tat org.apache.gluten.vectorized.JniLibLoader$JniLoadTransaction.commit(JniLibLoader.java:269)\n\tat org.apache.gluten.backendsapi.velox.VeloxListenerApi.loadLibWithLinux(VeloxListenerApi.scala:141)\n\tat org.apache.gluten.backendsapi.velox.VeloxListenerApi.initialize(VeloxListenerApi.scala:172)\n\tat org.apache.gluten.backendsapi.velox.VeloxListenerApi.onDriverStart(VeloxListenerApi.scala:49)\n\tat org.apache.gluten.GlutenDriverPlugin.init(GlutenPlugin.scala:76)\n\tat org.apache.spark.internal.plugin.DriverPluginContainer.$anonfun$driverPlugins$1(PluginContainer.scala:53)\n\tat scala.collection.TraversableLike.$anonfun$flatMap$1(TraversableLike.scala:293)\n\tat scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)\n\tat scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)\n\tat scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)\n\tat scala.collection.TraversableLike.flatMap(TraversableLike.scala:293)\n\tat scala.collection.TraversableLike.flatMap$(TraversableLike.scala:290)\n\tat scala.collection.AbstractTraversable.flatMap(Traversable.scala:108)\n\tat org.apache.spark.internal.plugin.DriverPluginContainer.\u003cinit\u003e(PluginContainer.scala:46)\n\tat org.apache.spark.internal.plugin.PluginContainer$.apply(PluginContainer.scala:210)\n\tat org.apache.spark.internal.plugin.PluginContainer$.apply(PluginContainer.scala:193)\n\tat org.apache.spark.SparkContext.\u003cinit\u003e(SparkContext.scala:579)\n\tat org.apache.spark.SparkContext$.getOrCreate(SparkContext.scala:2888)\n\tat org.apache.spark.sql.SparkSession$Builder.$anonfun$getOrCreate$2(SparkSession.scala:1099)\n\tat scala.Option.getOrElse(Option.scala:189)\n\tat org.apache.spark.sql.SparkSession$Builder.getOrCreate(SparkSession.scala:1093)\n\tat org.apache.zeppelin.spark.AbstractSparkScalaInterpreter.createSparkContext(AbstractSparkScalaInterpreter.java:192)\n\tat org.apache.zeppelin.spark.AbstractSparkScalaInterpreter.open(AbstractSparkScalaInterpreter.java:117)\n\tat org.apache.zeppelin.spark.SparkInterpreter.open(SparkInterpreter.java:150)\n\tat org.apache.zeppelin.interpreter.LazyOpenInterpreter.open(LazyOpenInterpreter.java:70)\n\t... 12 more\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1722506072301_1952289764",
+      "id": "paragraph_1722506072301_1952289764",
+      "dateCreated": "2024-08-01 16:54:32.301",
+      "dateStarted": "2024-08-02 11:38:36.271",
+      "dateFinished": "2024-08-02 11:38:49.931",
+      "status": "ERROR"
+    },
+    {
+      "text": "%python\n",
+      "user": "anonymous",
+      "dateUpdated": "2024-08-01 16:55:17.842",
+      "progress": 0,
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721978632305_1029990352",
+      "id": "paragraph_1721978632305_1029990352",
+      "dateCreated": "2024-07-26 14:23:52.306",
+      "dateStarted": "2024-08-01 16:55:17.847",
+      "dateFinished": "2024-08-01 16:55:20.991",
+      "status": "FINISHED"
+    },
+    {
+      "title": "",
+      "text": "%python\n\nimport blendata_util_py\n\ntimeSleep \u003d 10\ntimeout \u003d 300\nconcurrentParallel \u003d 3\nlanguage \u003d \"python\"\ndescription \u003d True\nnotebookAddParameterRequest \u003d [\n {\n     \"notebookId\" : \"2K552MUEN\",\n     \"addParameterMapFromTitle\": {\n     }\n },\n  {\n     \"notebookId\" : \"2K552MUEN\",\n     \"addParameterMapFromTitle\": {\n     }\n },\n   {\n     \"notebookId\" : \"2K552MUEN\",\n     \"addParameterMapFromTitle\": {\n     }\n }\n]\n\nresult \u003d blendata_util_py.hera_api_runParallelLog( timeSleep,timeout,concurrentParallel,language,notebookAddParameterRequest, description)\nprint(result)",
+      "user": "anonymous",
+      "dateUpdated": "2024-08-05 15:28:21.161",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "/usr/local/lib/python3.6/site-packages/urllib3/connectionpool.py:1052: InsecureRequestWarning: Unverified HTTPS request is being made to host \u0027192.168.0.26\u0027. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings\n  InsecureRequestWarning,\n{\u0027parallel_2K552MUEN_index:2_ref:c79ec\u0027: {\u0027url\u0027: \u0027http://110.238.117.235:8998/#/notebook/2K6NKS2XR?pubNToken\u003d32198e6d59554c5ebd0423e32d89f8ac\u0027, \u0027message\u0027: [{\u0027title\u0027: \u0027\u0027, \u0027code\u0027: \u0027ERROR\u0027, \u0027msg\u0027: [{\u0027type\u0027: \u0027TEXT\u0027, \u0027data\u0027: \u0027java.lang.RuntimeException\\n\\tat org.apache.zeppelin.interpreter.remote.PooledRemoteClient.callRemoteFunction(PooledRemoteClient.java:123)\\n\\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreterProcess.callRemoteFunction(RemoteInterpreterProcess.java:100)\\n\\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreter.interpret(RemoteInterpreter.java:207)\\n\\tat org.apache.zeppelin.notebook.Paragraph.jobRun(Paragraph.java:484)\\n\\tat org.apache.zeppelin.notebook.Paragraph.jobRun(Paragraph.java:68)\\n\\tat org.apache.zeppelin.scheduler.Job.run(Job.java:186)\\n\\tat org.apache.zeppelin.scheduler.AbstractScheduler.runJob(AbstractScheduler.java:135)\\n\\tat org.apache.zeppelin.scheduler.RemoteScheduler$JobRunner.run(RemoteScheduler.java:186)\\n\\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\\n\\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\\n\\tat java.lang.Thread.run(Thread.java:750)\\n\u0027}]}, {\u0027title\u0027: None, \u0027code\u0027: \u0027SUCCESS\u0027, \u0027msg\u0027: [{\u0027type\u0027: \u0027TEXT\u0027, \u0027data\u0027: \u0027123\\n\u0027}]}, None]}, \u0027parallel_2K552MUEN_index:0_ref:9b2d9\u0027: {\u0027url\u0027: \u0027http://110.238.117.235:8998/#/notebook/2K4WTM3WE?pubNToken\u003d959dc6d2358e4e5cb4d27966d894f2f8\u0027, \u0027message\u0027: [{\u0027title\u0027: \u0027\u0027, \u0027code\u0027: \u0027SUCCESS\u0027, \u0027msg\u0027: [{\u0027type\u0027: \u0027TEXT\u0027, \u0027data\u0027: \u0027123\\n\u003cSparkContext master\u003dspark://192.168.0.198:7077 appName\u003dcron-2K4WTM3WE\u003e\\n\u0027}]}, {\u0027title\u0027: None, \u0027code\u0027: \u0027SUCCESS\u0027, \u0027msg\u0027: [{\u0027type\u0027: \u0027TEXT\u0027, \u0027data\u0027: \u0027123\\n\u0027}]}, {\u0027title\u0027: None, \u0027code\u0027: \u0027SUCCESS\u0027, \u0027msg\u0027: []}]}, \u0027parallel_2K552MUEN_index:1_ref:3e28b\u0027: {\u0027url\u0027: \u0027http://110.238.117.235:8998/#/notebook/2K4NB92QP?pubNToken\u003d23ba9200853c4cdbb40fa72b0a52cedc\u0027, \u0027message\u0027: [{\u0027title\u0027: \u0027\u0027, \u0027code\u0027: \u0027SUCCESS\u0027, \u0027msg\u0027: [{\u0027type\u0027: \u0027TEXT\u0027, \u0027data\u0027: \u0027123\\n\u003cSparkContext master\u003dspark://192.168.0.198:7077 appName\u003dcron-2K4NB92QP\u003e\\n\u0027}]}, {\u0027title\u0027: None, \u0027code\u0027: \u0027SUCCESS\u0027, \u0027msg\u0027: [{\u0027type\u0027: \u0027TEXT\u0027, \u0027data\u0027: \u0027123\\n\u0027}]}, {\u0027title\u0027: None, \u0027code\u0027: \u0027SUCCESS\u0027, \u0027msg\u0027: []}]}}\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721849059752_1061103512",
+      "id": "paragraph_1721849059752_1061103512",
+      "dateCreated": "2024-07-25 02:24:19.752",
+      "dateStarted": "2024-08-05 15:28:21.164",
+      "dateFinished": "2024-08-05 15:30:24.608",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%python\n",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-31 17:51:30.832",
+      "progress": 0,
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1722423090832_1069514645",
+      "id": "paragraph_1722423090832_1069514645",
+      "dateCreated": "2024-07-31 17:51:30.832",
+      "status": "READY"
+    },
+    {
+      "text": "%pyspark\n\nprint(123)\n",
+      "user": "anonymous",
+      "dateUpdated": "2024-08-06 01:07:31.056",
+      "progress": 0,
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python",
+        "editorHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "123\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721849065812_1599018584",
+      "id": "paragraph_1721849065812_1599018584",
+      "dateCreated": "2024-07-25 02:24:25.812",
+      "dateStarted": "2024-08-06 01:07:31.063",
+      "dateFinished": "2024-08-06 01:07:56.903",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%spark\n\nprint(123)\n",
+      "user": "anonymous",
+      "dateUpdated": "2024-08-05 15:20:22.917",
+      "progress": 0,
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "123"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721928615711_497347398",
+      "id": "paragraph_1721928615711_497347398",
+      "dateCreated": "2024-07-26 00:30:15.711",
+      "dateStarted": "2024-08-05 15:20:22.930",
+      "dateFinished": "2024-08-05 15:20:54.034",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%spark.r\n",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-26 15:54:25.072",
+      "progress": 0,
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721984065072_812344799",
+      "id": "paragraph_1721984065072_812344799",
+      "dateCreated": "2024-07-26 15:54:25.072",
+      "status": "READY"
+    }
+  ],
+  "name": "test_parallel",
+  "id": "2K48UADG7",
+  "defaultInterpreterGroup": "spark",
+  "version": "0.11.1",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": true,
+    "looknfeel": "default",
+    "personalizedMode": "false",
+    "cronExecutingUser": "",
+    "cronExecutingRoles": ""
+  },
+  "info": {
+    "inIsolatedMode": true,
+    "startTime": "2024-07-26_16-02-00"
+  }
+}
