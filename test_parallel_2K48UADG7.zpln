@@ -22,13 +22,24 @@
         "params": {},
         "forms": {}
       },
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\u003cconsole\u003e:28: \u001b[31merror: \u001b[0mnot found: value varaaar2\n       varaaar2\n       ^\n"
+          }
+        ]
+      },
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
       "jobName": "paragraph_1722930749300_1444668162",
       "id": "paragraph_1722930749300_1444668162",
       "dateCreated": "2024-08-06 14:52:29.300",
-      "status": "READY"
+      "dateStarted": "2024-08-14 00:00:00.001",
+      "dateFinished": "2024-08-14 00:00:26.585",
+      "status": "ERROR"
     },
     {
       "text": "%python\n\nprint(123)\n",
@@ -72,10 +83,10 @@
       "status": "FINISHED"
     },
     {
-      "text": "%spark\n\nprint(123)\n",
+      "text": "%spark\n\nspark.sql(\"show tables\").show()\n",
       "user": "anonymous",
-      "dateUpdated": "2024-08-06 11:27:28.963",
-      "progress": 0,
+      "dateUpdated": "2024-08-21 10:44:17.610",
+      "progress": 100,
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -94,13 +105,40 @@
         "params": {},
         "forms": {}
       },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "+---------+--------------------+-----------+\n|namespace|           tableName|isTemporary|\n+---------+--------------------+-----------+\n|  default|a_mockdata_1000_m...|      false|\n|  default|                  aq|      false|\n|  default|          banktest10|      false|\n|  default|         pathlomit30|      false|\n+---------+--------------------+-----------+\n\n"
+          }
+        ]
+      },
       "apps": [],
-      "runtimeInfos": {},
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://dev-2c8g-0002:4042/jobs/job?id\u003d0"
+            },
+            {
+              "jobUrl": "http://dev-2c8g-0002:4042/jobs/job?id\u003d1"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
       "progressUpdateIntervalMs": 500,
       "jobName": "paragraph_1722918347368_1607209904",
       "id": "paragraph_1722918347368_1607209904",
       "dateCreated": "2024-08-06 11:25:47.368",
-      "status": "READY"
+      "dateStarted": "2024-08-21 10:44:17.644",
+      "dateFinished": "2024-08-21 10:44:59.369",
+      "status": "FINISHED"
     },
     {
       "text": "%spark-vector.pyspark\n\na \u003d 3\nprint(a)\n",
@@ -183,9 +221,9 @@
     },
     {
       "title": "",
-      "text": "%python\n\nimport blendata_util_py\n\ntimeSleep \u003d 10\ntimeout \u003d 300\nconcurrentParallel \u003d 3\nlanguage \u003d \"python\"\ndescription \u003d True\nnotebookAddParameterRequest \u003d [\n {\n     \"notebookId\" : \"2K552MUEN\",\n     \"addParameterMapFromTitle\": {\n     }\n },\n  {\n     \"notebookId\" : \"2K552MUEN\",\n     \"addParameterMapFromTitle\": {\n     }\n },\n   {\n     \"notebookId\" : \"2K552MUEN\",\n     \"addParameterMapFromTitle\": {\n     }\n }\n]\n\nresult \u003d blendata_util_py.hera_api_runParallelLog( timeSleep,timeout,concurrentParallel,language,notebookAddParameterRequest, description)\nprint(result)",
+      "text": "%python\n\nimport blendata_util_py\n\ntimeSleep \u003d 10\ntimeout \u003d 300\nconcurrentParallel \u003d 1\nlanguage \u003d \"python\"\ndescription \u003d True\nnotebookAddParameterRequest \u003d [\n {\n     \"notebookId\" : \"2K7K9NWT2\",\n     \"addParameterMapFromTitle\": {\n     }\n },\n  {\n     \"notebookId\" : \"2K7K9NWT2\",\n     \"addParameterMapFromTitle\": {\n     }\n },\n   {\n     \"notebookId\" : \"2K7K9NWT2\",\n     \"addParameterMapFromTitle\": {\n     }\n }\n]\n\nresult \u003d blendata_util_py.hera_api_runParallelLog( timeSleep,timeout,concurrentParallel,language,notebookAddParameterRequest, description)\nprint(result)",
       "user": "anonymous",
-      "dateUpdated": "2024-08-06 11:26:28.044",
+      "dateUpdated": "2024-08-30 09:16:35.381",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -210,7 +248,7 @@
         "msg": [
           {
             "type": "TEXT",
-            "data": "/usr/local/lib/python3.6/site-packages/urllib3/connectionpool.py:1052: InsecureRequestWarning: Unverified HTTPS request is being made to host \u0027192.168.0.26\u0027. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings\n  InsecureRequestWarning,\n{\u0027parallel_2K552MUEN_index:2_ref:c79ec\u0027: {\u0027url\u0027: \u0027http://110.238.117.235:8998/#/notebook/2K6NKS2XR?pubNToken\u003d32198e6d59554c5ebd0423e32d89f8ac\u0027, \u0027message\u0027: [{\u0027title\u0027: \u0027\u0027, \u0027code\u0027: \u0027ERROR\u0027, \u0027msg\u0027: [{\u0027type\u0027: \u0027TEXT\u0027, \u0027data\u0027: \u0027java.lang.RuntimeException\\n\\tat org.apache.zeppelin.interpreter.remote.PooledRemoteClient.callRemoteFunction(PooledRemoteClient.java:123)\\n\\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreterProcess.callRemoteFunction(RemoteInterpreterProcess.java:100)\\n\\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreter.interpret(RemoteInterpreter.java:207)\\n\\tat org.apache.zeppelin.notebook.Paragraph.jobRun(Paragraph.java:484)\\n\\tat org.apache.zeppelin.notebook.Paragraph.jobRun(Paragraph.java:68)\\n\\tat org.apache.zeppelin.scheduler.Job.run(Job.java:186)\\n\\tat org.apache.zeppelin.scheduler.AbstractScheduler.runJob(AbstractScheduler.java:135)\\n\\tat org.apache.zeppelin.scheduler.RemoteScheduler$JobRunner.run(RemoteScheduler.java:186)\\n\\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\\n\\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\\n\\tat java.lang.Thread.run(Thread.java:750)\\n\u0027}]}, {\u0027title\u0027: None, \u0027code\u0027: \u0027SUCCESS\u0027, \u0027msg\u0027: [{\u0027type\u0027: \u0027TEXT\u0027, \u0027data\u0027: \u0027123\\n\u0027}]}, None]}, \u0027parallel_2K552MUEN_index:0_ref:9b2d9\u0027: {\u0027url\u0027: \u0027http://110.238.117.235:8998/#/notebook/2K4WTM3WE?pubNToken\u003d959dc6d2358e4e5cb4d27966d894f2f8\u0027, \u0027message\u0027: [{\u0027title\u0027: \u0027\u0027, \u0027code\u0027: \u0027SUCCESS\u0027, \u0027msg\u0027: [{\u0027type\u0027: \u0027TEXT\u0027, \u0027data\u0027: \u0027123\\n\u003cSparkContext master\u003dspark://192.168.0.198:7077 appName\u003dcron-2K4WTM3WE\u003e\\n\u0027}]}, {\u0027title\u0027: None, \u0027code\u0027: \u0027SUCCESS\u0027, \u0027msg\u0027: [{\u0027type\u0027: \u0027TEXT\u0027, \u0027data\u0027: \u0027123\\n\u0027}]}, {\u0027title\u0027: None, \u0027code\u0027: \u0027SUCCESS\u0027, \u0027msg\u0027: []}]}, \u0027parallel_2K552MUEN_index:1_ref:3e28b\u0027: {\u0027url\u0027: \u0027http://110.238.117.235:8998/#/notebook/2K4NB92QP?pubNToken\u003d23ba9200853c4cdbb40fa72b0a52cedc\u0027, \u0027message\u0027: [{\u0027title\u0027: \u0027\u0027, \u0027code\u0027: \u0027SUCCESS\u0027, \u0027msg\u0027: [{\u0027type\u0027: \u0027TEXT\u0027, \u0027data\u0027: \u0027123\\n\u003cSparkContext master\u003dspark://192.168.0.198:7077 appName\u003dcron-2K4NB92QP\u003e\\n\u0027}]}, {\u0027title\u0027: None, \u0027code\u0027: \u0027SUCCESS\u0027, \u0027msg\u0027: [{\u0027type\u0027: \u0027TEXT\u0027, \u0027data\u0027: \u0027123\\n\u0027}]}, {\u0027title\u0027: None, \u0027code\u0027: \u0027SUCCESS\u0027, \u0027msg\u0027: []}]}}\n"
+            "data": "/usr/local/lib/python3.6/site-packages/urllib3/connectionpool.py:1052: InsecureRequestWarning: Unverified HTTPS request is being made to host \u0027192.168.0.26\u0027. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings\n  InsecureRequestWarning,\n{\u0027parallel_2K7K9NWT2_index:1_ref:35f5b\u0027: {\u0027url\u0027: \u0027http://110.238.117.235:8998/#/notebook/2K97P2SNJ?pubNToken\u003d637ff011b46c44f8b9fa2203af36766d\u0027, \u0027message\u0027: [{\u0027title\u0027: \u0027\u0027, \u0027code\u0027: \u0027SUCCESS\u0027, \u0027msg\u0027: [{\u0027type\u0027: \u0027TEXT\u0027, \u0027data\u0027: \u0027123\\n\u0027}]}]}, \u0027parallel_2K7K9NWT2_index:0_ref:84724\u0027: {\u0027url\u0027: \u0027http://110.238.117.235:8998/#/notebook/2K7NECZGZ?pubNToken\u003dbdcce20b9f604295ac108cb7084217c4\u0027, \u0027message\u0027: [{\u0027title\u0027: \u0027\u0027, \u0027code\u0027: \u0027SUCCESS\u0027, \u0027msg\u0027: [{\u0027type\u0027: \u0027TEXT\u0027, \u0027data\u0027: \u0027123\\n\u0027}]}]}, \u0027parallel_2K7K9NWT2_index:2_ref:ca57c\u0027: {\u0027url\u0027: \u0027http://110.238.117.235:8998/#/notebook/2K9715DXB?pubNToken\u003dd90995c73eaa4205ac553f12478f4a27\u0027, \u0027message\u0027: [{\u0027title\u0027: \u0027\u0027, \u0027code\u0027: \u0027SUCCESS\u0027, \u0027msg\u0027: [{\u0027type\u0027: \u0027TEXT\u0027, \u0027data\u0027: \u0027123\\n\u0027}]}]}}\n"
           }
         ]
       },
@@ -220,8 +258,8 @@
       "jobName": "paragraph_1721849059752_1061103512",
       "id": "paragraph_1721849059752_1061103512",
       "dateCreated": "2024-07-25 02:24:19.752",
-      "dateStarted": "2024-08-05 15:28:21.164",
-      "dateFinished": "2024-08-05 15:30:24.608",
+      "dateStarted": "2024-08-30 09:16:35.390",
+      "dateFinished": "2024-08-30 09:17:50.528",
       "status": "FINISHED"
     },
     {
@@ -341,9 +379,9 @@
       "status": "FINISHED"
     },
     {
-      "text": "%spark.r\n",
+      "text": "%spark\n\n/**Delta Table with generated-partition**/\nimport com.blendata.BlendataUtil._\nimport com.blendata.constant.PartitionConstant._\nimport org.apache.spark.sql.{SparkSession, Row, SaveMode}\nimport org.apache.spark.sql.types._\nimport scala.collection.JavaConverters._\n\n// Define the schema\nval schema \u003d StructType(Array(\n    StructField(\"no\", IntegerType, nullable \u003d true),  \n    StructField(\"name\", StringType, nullable \u003d true),  \n    StructField(\"single\", BooleanType, nullable \u003d true),  \n    StructField(\"created_date\", LongType, nullable \u003d true),  \n    StructField(\"birth_date\", DateType, nullable \u003d true),  \n    StructField(\"starting_date\", TimestampType, nullable \u003d true)))\n\n// Prepare your data (replace with your actual data source or logic)\nval data \u003d Seq(  \n    Row(3, \"Mason Doe\", true, 20240405L, java.sql.Date.valueOf(\"2023-10-16\"), java.sql.Timestamp.valueOf(\"2024-02-17 15:30:00\")),  \n    Row(4, \"Kerry Smith\", false, 20240406L, java.sql.Date.valueOf(\"1998-01-31\"), java.sql.Timestamp.valueOf(\"2023-04-23 08:00:00\"))\n    )\n\n// Create the DataFrame\nval sink \u003d spark.createDataFrame(      \n    sc.parallelize(data),schema)\n\nval tableName \u003d \"sdk_ploy_10\"\nval description \u003d \"delta table, timeseries, auto-generated-partition\"\nval storageName \u003d \"Default zeus path\"\n/*** Param *****\nString tableName, String description, \nDataset\u003cRow\u003e sink, Map\u003cString, String\u003e sinkOptions, SparkContext sc, \nString storageName, String timeField, String[] partitions, \nString[] deltaKeys, boolean enableService\n****************/\nblendata_util.hera_api_writeDeltaTable(tableName, description, sink, new java.util.HashMap[String, String], sc, storageName, \"starting_date\", Array(GENERATED_YEAR, GENERATED_DATE, \"name\"), Array(\"no\", \"name\"), true)",
       "user": "anonymous",
-      "dateUpdated": "2024-08-06 11:26:28.051",
+      "dateUpdated": "2024-08-20 12:42:55.182",
       "progress": 0,
       "config": {
         "colWidth": 12.0,
@@ -351,17 +389,26 @@
         "enabled": true,
         "results": {},
         "editorSetting": {
-          "language": "r",
+          "language": "scala",
           "editOnDblClick": false,
           "completionKey": "TAB",
-          "completionSupport": false
+          "completionSupport": true
         },
-        "editorMode": "ace/mode/r",
+        "editorMode": "ace/mode/scala",
         "tableHide": false
       },
       "settings": {
         "params": {},
         "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "java.lang.RuntimeException: !!!Error Create table : status code 600 : {\n  \"timestamp\" : 1724132609451,\n  \"status\" : 600,\n  \"error\" : \"Internal Server Error\",\n  \"message\" : \"Failed to create sdk_ploy_10, table already exists\",\n  \"path\" : null,\n  \"errorId\" : \"H-17241326094519-DLn7aV6_\",\n  \"moduleCode\" : \"HERA\"\n}  \n\tat com.blendata.service.Service.handleResponse(Service.java:39)\n\tat com.blendata.service.CreateTableService.call(CreateTableService.java:146)\n\tat com.blendata.BlendataUtil.hera_api_writeDeltaTable(BlendataUtil.java:158)\n\tat $line12111407926.$read$$iw$$iw$$iw$$iw$$iw$$iw$$iw$$iw$$iw$$iw.\u003cinit\u003e(\u003cconsole\u003e:66)\n\tat $line12111407926.$read$$iw$$iw$$iw$$iw$$iw$$iw$$iw$$iw$$iw.\u003cinit\u003e(\u003cconsole\u003e:81)\n\tat $line12111407926.$read$$iw$$iw$$iw$$iw$$iw$$iw$$iw$$iw.\u003cinit\u003e(\u003cconsole\u003e:83)\n\tat $line12111407926.$read$$iw$$iw$$iw$$iw$$iw$$iw$$iw.\u003cinit\u003e(\u003cconsole\u003e:85)\n\tat $line12111407926.$read$$iw$$iw$$iw$$iw$$iw$$iw.\u003cinit\u003e(\u003cconsole\u003e:87)\n\tat $line12111407926.$read$$iw$$iw$$iw$$iw$$iw.\u003cinit\u003e(\u003cconsole\u003e:89)\n\tat $line12111407926.$read$$iw$$iw$$iw$$iw.\u003cinit\u003e(\u003cconsole\u003e:91)\n\tat $line12111407926.$read$$iw$$iw$$iw.\u003cinit\u003e(\u003cconsole\u003e:93)\n\tat $line12111407926.$read$$iw$$iw.\u003cinit\u003e(\u003cconsole\u003e:95)\n\tat $line12111407926.$read$$iw.\u003cinit\u003e(\u003cconsole\u003e:97)\n\tat $line12111407926.$read.\u003cinit\u003e(\u003cconsole\u003e:99)\n\tat $line12111407926.$read$.\u003cinit\u003e(\u003cconsole\u003e:103)\n\tat $line12111407926.$read$.\u003cclinit\u003e(\u003cconsole\u003e)\n\tat $line12111407926.$eval$.$print$lzycompute(\u003cconsole\u003e:7)\n\tat $line12111407926.$eval$.$print(\u003cconsole\u003e:6)\n\tat $line12111407926.$eval.$print(\u003cconsole\u003e)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat scala.tools.nsc.interpreter.IMain$ReadEvalPrint.call(IMain.scala:747)\n\tat scala.tools.nsc.interpreter.IMain$Request.loadAndRun(IMain.scala:1020)\n\tat scala.tools.nsc.interpreter.IMain.$anonfun$interpret$1(IMain.scala:568)\n\tat scala.reflect.internal.util.ScalaClassLoader.asContext(ScalaClassLoader.scala:36)\n\tat scala.reflect.internal.util.ScalaClassLoader.asContext$(ScalaClassLoader.scala:116)\n\tat scala.reflect.internal.util.AbstractFileClassLoader.asContext(AbstractFileClassLoader.scala:41)\n\tat scala.tools.nsc.interpreter.IMain.loadAndRunReq$1(IMain.scala:567)\n\tat scala.tools.nsc.interpreter.IMain.interpret(IMain.scala:594)\n\tat scala.tools.nsc.interpreter.IMain.interpret(IMain.scala:564)\n\tat org.apache.zeppelin.spark.SparkScala212Interpreter.scalaInterpret(SparkScala212Interpreter.scala:145)\n\tat org.apache.zeppelin.spark.SparkScala212Interpreter.$anonfun$interpret$1(SparkScala212Interpreter.scala:79)\n\tat scala.util.DynamicVariable.withValue(DynamicVariable.scala:62)\n\tat scala.Console$.withOut(Console.scala:167)\n\tat org.apache.zeppelin.spark.SparkScala212Interpreter._interpret$1(SparkScala212Interpreter.scala:70)\n\tat org.apache.zeppelin.spark.SparkScala212Interpreter.interpret(SparkScala212Interpreter.scala:105)\n\tat org.apache.zeppelin.spark.SparkInterpreter.internalInterpret(SparkInterpreter.java:268)\n\tat org.apache.zeppelin.interpreter.AbstractInterpreter.interpret(AbstractInterpreter.java:55)\n\tat org.apache.zeppelin.interpreter.LazyOpenInterpreter.interpret(LazyOpenInterpreter.java:108)\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer$InterpretJob.jobRun(RemoteInterpreterServer.java:877)\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer$InterpretJob.jobRun(RemoteInterpreterServer.java:769)\n\tat org.apache.zeppelin.scheduler.Job.run(Job.java:186)\n\tat org.apache.zeppelin.scheduler.AbstractScheduler.runJob(AbstractScheduler.java:135)\n\tat org.apache.zeppelin.scheduler.FIFOScheduler.lambda$runJobInScheduler$0(FIFOScheduler.java:42)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\nimport com.blendata.BlendataUtil._\nimport com.blendata.constant.PartitionConstant._\nimport org.apache.spark.sql.{SparkSession, Row, SaveMode}\nimport org.apache.spark.sql.types._\nimport scala.collection.JavaConverters._\n\u001b[1m\u001b[34mschema\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.sql.types.StructType\u001b[0m \u003d StructType(StructField(no,IntegerType,true),StructField(name,StringType,true),StructField(single,BooleanType,true),StructField(created_date,LongType,true),StructField(birth_date,DateType,true),StructField(starting_date,TimestampType,true))\n\u001b[1m\u001b[34mdata\u001b[0m: \u001b[1m\u001b[32mSeq[org.apache.spark.sql.Row]\u001b[0m \u003d List([3,Mason Doe,true,20240405,2023-10-16,2024-02-17 15:30:00.0], [4,Kerry Smith,false,20240406,1998-01-31,2023-04-23 08:00:00.0])\n\u001b[1m\u001b[34msink\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.sql.DataFrame\u001b[0m \u003d [no...\n"
+          }
+        ]
       },
       "apps": [],
       "runtimeInfos": {},
@@ -369,6 +416,26 @@
       "jobName": "paragraph_1721984065072_812344799",
       "id": "paragraph_1721984065072_812344799",
       "dateCreated": "2024-07-26 15:54:25.072",
+      "dateStarted": "2024-08-20 12:42:55.189",
+      "dateFinished": "2024-08-20 12:43:29.612",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%spark\n",
+      "user": "anonymous",
+      "dateUpdated": "2024-08-20 12:35:56.416",
+      "progress": 0,
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1724132156416_850232624",
+      "id": "paragraph_1724132156416_850232624",
+      "dateCreated": "2024-08-20 12:35:56.416",
       "status": "READY"
     }
   ],
@@ -388,6 +455,6 @@
   },
   "info": {
     "inIsolatedMode": true,
-    "startTime": "2024-07-26_16-02-00"
+    "startTime": "2024-08-14_00-00-00"
   }
 }
