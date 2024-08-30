@@ -1,0 +1,46 @@
+{
+  "paragraphs": [
+    {
+      "title": "",
+      "text": "%python\n\nprint(123)",
+      "user": "anonymous",
+      "dateUpdated": "2024-08-30 15:56:19.476",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1725008030879_2134638111",
+      "id": "paragraph_1725008030879_2134638111",
+      "dateCreated": "2024-08-30 15:53:50.879",
+      "status": "READY"
+    }
+  ],
+  "name": "aa32",
+  "id": "2K7HE69S4",
+  "defaultInterpreterGroup": "spark",
+  "version": "0.11.1",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": true
+  },
+  "info": {}
+}
