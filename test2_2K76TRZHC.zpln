@@ -1,0 +1,91 @@
+{
+  "paragraphs": [
+    {
+      "title": "",
+      "text": "%pyspark\nfrom pyspark.sql import SparkSession\nspark \u003d SparkSession.builder.appName(\u0027appName\u0027).getOrCreate()\ndf \u003d spark.read.format(\u0027csv\u0027).option(\u0027header\u0027, True).load(\u0027/home/blendata/bld-genesis-agent/project_path/bde_management/zeppelin_dev_2/virtualenvs/testpy.csv\u0027)\ndf.show()",
+      "user": "anonymous",
+      "dateUpdated": "2024-08-08 15:38:35.819",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "+----------------+--------+-----+------------+-----------------+--------------+--------------+--------------+---------------+------------+-----------+----------+--------------------+--------------------+--------------------+\n|transaction_date| product|price|payment_type|             name|          city|         state|       country|account_created|  last_login|   latitude| longitude|       gtp_timestamp|      gtp_timestamp1|   input_source_name|\n+----------------+--------+-----+------------+-----------------+--------------+--------------+--------------+---------------+------------+-----------+----------+--------------------+--------------------+--------------------+\n|     1/2/09 6:17|Product1| 1200|  Mastercard|         carolina|      Basildon|       England|United Kingdom|    1/2/09 6:00| 1/2/09 6:08|       51.5|-1.1166667|2021-03-03 15:48:...|2024-06-07 13:53:...|file:///data/zeus...|\n|     1/2/09 4:53|Product1| 1200|        Visa|           Betina|     Parkville|            MO| United States|    1/2/09 4:42| 1/2/09 7:49|     39.195| -94.68194|2021-03-03 15:48:...|2024-06-07 13:53:...|file:///data/zeus...|\n|    1/2/09 13:08|Product1| 1200|  Mastercard|Federica e Andrea|       Astoria|            OR| United States|   1/1/09 16:21|1/3/09 12:32|   46.18806|   -123.83|2021-03-03 15:48:...|2024-06-07 13:53:...|file:///data/zeus...|\n|    1/3/09 14:44|Product1| 1200|        Visa|            Gouya|        Echuca|      Victoria|     Australia|  9/25/05 21:13|1/3/09 14:22|-36.1333333|    144.75|2021-03-03 15:48:...|2024-06-07 13:53:...|file:///data/zeus...|\n|    1/4/09 12:56|Product2| 3600|        Visa|           Gerd W|Cahaba Heights|            AL| United States| 11/15/08 15:47|1/4/09 12:45|   33.52056|  -86.8025|2021-03-03 15:48:...|2024-06-07 13:53:...|file:///data/zeus...|\n|    1/4/09 13:19|Product1| 1200|        Visa|         LAURENCE|     Mickleton|            NJ| United States|  9/24/08 15:19|1/4/09 13:04|      39.79| -75.23806|2021-03-03 15:48:...|2024-06-07 13:53:...|file:///data/zeus...|\n|    1/4/09 20:11|Product1| 1200|  Mastercard|            Fleur|        Peoria|            IL| United States|    1/3/09 9:38|1/4/09 19:45|   40.69361| -89.58889|2021-03-03 15:48:...|2024-06-07 13:53:...|file:///data/zeus...|\n|    1/2/09 20:09|Product1| 1200|  Mastercard|             adam|        Martin|            TN| United States|   1/2/09 17:43|1/4/09 20:01|   36.34333| -88.85028|2021-03-03 15:48:...|2024-06-07 13:53:...|file:///data/zeus...|\n|    1/4/09 13:17|Product1| 1200|  Mastercard|  Renee Elisabeth|      Tel Aviv|      Tel Aviv|        Israel|   1/4/09 13:03|1/4/09 22:10| 32.0666667|34.7666667|2021-03-03 15:48:...|2024-06-07 13:53:...|file:///data/zeus...|\n|    1/4/09 14:11|Product1| 1200|        Visa|            Aidan|        Chatou| Ile-de-France|        France|    6/3/08 4:22| 1/5/09 1:17| 48.8833333|      2.15|2021-03-03 15:48:...|2024-06-07 13:53:...|file:///data/zeus...|\n|     1/5/09 2:42|Product1| 1200|      Diners|            Stacy|      New York|            NY| United States|    1/5/09 2:23| 1/5/09 4:59|   40.71417| -74.00639|2021-03-03 15:48:...|2024-06-07 13:53:...|file:///data/zeus...|\n|     1/5/09 5:39|Product1| 1200|        Amex|            Heidi|     Eindhoven| Noord-Brabant|   Netherlands|    1/5/09 4:55| 1/5/09 8:15|      51.45| 5.4666667|2021-03-03 15:48:...|2024-06-07 13:53:...|file:///data/zeus...|\n|     1/2/09 9:16|Product1| 1200|  Mastercard|             Sean|  Shavano Park|            TX| United States|    1/2/09 8:32| 1/5/09 9:05|   29.42389| -98.49333|2021-03-03 15:48:...|2024-06-07 13:53:...|file:///data/zeus...|\n|    1/5/09 10:08|Product1| 1200|        Visa|          Georgia|         Eagle|            ID| United States| 11/11/08 15:53|1/5/09 10:05|   43.69556|-116.35306|2021-03-03 15:48:...|2024-06-07 13:53:...|file:///data/zeus...|\n|    1/2/09 14:18|Product1| 1200|        Visa|          Richard|     Riverside|            NJ| United States|  12/9/08 12:07|1/5/09 11:01|   40.03222| -74.95778|2021-03-03 15:48:...|2024-06-07 13:53:...|file:///data/zeus...|\n|     1/4/09 1:05|Product1| 1200|      Diners|           Leanne|   Julianstown|         Meath|       Ireland|    1/4/09 0:00|1/5/09 13:36| 53.6772222|-6.3191667|2021-03-03 15:48:...|2024-06-07 13:53:...|file:///data/zeus...|\n|    1/5/09 11:37|Product1| 1200|        Visa|            Janet|        Ottawa|       Ontario|        Canada|    1/5/09 9:35|1/5/09 19:24| 45.4166667|     -75.7|2021-03-03 15:48:...|2024-06-07 13:53:...|file:///data/zeus...|\n|     1/6/09 5:02|Product1| 1200|      Diners|          barbara|     Hyderabad|Andhra Pradesh|         India|    1/6/09 2:41| 1/6/09 7:52| 17.3833333|78.4666667|2021-03-03 15:48:...|2024-06-07 13:53:...|file:///data/zeus...|\n|     1/6/09 7:45|Product2| 3600|        Visa|           Sabine|        London|       England|United Kingdom|    1/6/09 7:00| 1/6/09 9:17|   51.52721|   0.14559|2021-03-03 15:48:...|2024-06-07 13:53:...|file:///data/zeus...|\n|     1/2/09 7:35|Product1| 1200|      Diners|             Hani|Salt Lake City|            UT| United States|  12/30/08 5:44|1/6/09 10:52|   40.76083|-111.89028|2021-03-03 15:48:...|2024-06-07 13:53:...|file:///data/zeus...|\n+----------------+--------+-----+------------+-----------------+--------------+--------------+--------------+---------------+------------+-----------+----------+--------------------+--------------------+--------------------+\nonly showing top 20 rows\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://dev-2c8g-0002:4042/jobs/job?id\u003d0"
+            },
+            {
+              "jobUrl": "http://dev-2c8g-0002:4042/jobs/job?id\u003d1"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1723000883655_1711643291",
+      "id": "paragraph_1723000883655_1711643291",
+      "dateCreated": "2024-08-07 10:21:23.655",
+      "dateStarted": "2024-08-08 15:38:35.824",
+      "dateFinished": "2024-08-08 15:39:56.602",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%pyspark\n",
+      "user": "anonymous",
+      "dateUpdated": "2024-08-08 15:17:02.981",
+      "progress": 0,
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1723105022980_305428214",
+      "id": "paragraph_1723105022980_305428214",
+      "dateCreated": "2024-08-08 15:17:02.981",
+      "status": "READY"
+    }
+  ],
+  "name": "test2",
+  "id": "2K76TRZHC",
+  "defaultInterpreterGroup": "spark",
+  "version": "0.11.1",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": true
+  },
+  "info": {}
+}

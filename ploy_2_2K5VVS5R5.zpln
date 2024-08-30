@@ -1,0 +1,320 @@
+{
+  "paragraphs": [
+    {
+      "text": "%python\n%spark\nsc.version",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-18 16:39:56.391",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python",
+        "colWidth": 12.0,
+        "editorHide": false,
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Traceback (most recent call last):\n  File \"/tmp/python8335835582106428510/zeppelin_python.py\", line 152, in \u003cmodule\u003e\n    code \u003d compile(\u0027\\n\u0027.join(stmts), \u0027\u003cstdin\u003e\u0027, \u0027exec\u0027, ast.PyCF_ONLY_AST, 1)\n  File \"\u003cstdin\u003e\", line 2\n    %spark\n    ^\nSyntaxError: invalid syntax\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721295588872_1870421935",
+      "id": "20240718-163948_1004345508",
+      "dateCreated": "2024-07-18 16:39:48.872",
+      "dateStarted": "2024-07-18 16:39:56.393",
+      "dateFinished": "2024-07-18 16:39:58.637",
+      "status": "ERROR"
+    },
+    {
+      "text": "%python\n%spark\nThread.sleep(10000)",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-18 16:40:01.596",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python",
+        "colWidth": 12.0,
+        "editorHide": false,
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Traceback (most recent call last):\n  File \"/tmp/python8335835582106428510/zeppelin_python.py\", line 152, in \u003cmodule\u003e\n    code \u003d compile(\u0027\\n\u0027.join(stmts), \u0027\u003cstdin\u003e\u0027, \u0027exec\u0027, ast.PyCF_ONLY_AST, 1)\n  File \"\u003cstdin\u003e\", line 2\n    %spark\n    ^\nSyntaxError: invalid syntax\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721295588872_2079721828",
+      "id": "20240718-163948_934218786",
+      "dateCreated": "2024-07-18 16:39:48.872",
+      "dateStarted": "2024-07-18 16:40:01.599",
+      "dateFinished": "2024-07-18 16:40:01.611",
+      "status": "ERROR"
+    },
+    {
+      "text": "%python\n\nimport test_spark\ntest_spark.test(\"Hello, Guy\")\n",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-18 16:40:31.339",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Hello, Guy\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721295601597_1808191906",
+      "id": "paragraph_1721295601597_1808191906",
+      "dateCreated": "2024-07-18 16:40:01.597",
+      "dateStarted": "2024-07-18 16:40:31.340",
+      "dateFinished": "2024-07-18 16:40:31.367",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%python\ntest_spark.test(\"Hello, Guy\")",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-18 16:40:39.706",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Hello, Guy\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721295618021_1678412245",
+      "id": "paragraph_1721295618021_1678412245",
+      "dateCreated": "2024-07-18 16:40:18.021",
+      "dateStarted": "2024-07-18 16:40:39.709",
+      "dateFinished": "2024-07-18 16:40:39.726",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%python\nprint (\"Hello, Guy\")",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-18 16:40:46.710",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Hello, Guy\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721295639707_419562430",
+      "id": "paragraph_1721295639707_419562430",
+      "dateCreated": "2024-07-18 16:40:39.707",
+      "dateStarted": "2024-07-18 16:40:46.713",
+      "dateFinished": "2024-07-18 16:40:46.733",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%python\nprint (rectangle(100000 , 50000))",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-18 16:41:24.083",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "5000000000\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721295646711_881356312",
+      "id": "paragraph_1721295646711_881356312",
+      "dateCreated": "2024-07-18 16:40:46.712",
+      "dateStarted": "2024-07-18 16:41:24.085",
+      "dateFinished": "2024-07-18 16:41:24.090",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%python\ndef rectangle(w,h):\n    area \u003d w * h\n    return w * h \n    \n    w \u003d int (input(\"width \u003d \"))\n    h \u003d int (input(\"heigth \u003d \"))\n\n\nprint (rectangle(5 , 5))",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-18 16:41:18.546",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "25\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721295659824_1953055581",
+      "id": "paragraph_1721295659824_1953055581",
+      "dateCreated": "2024-07-18 16:40:59.824",
+      "dateStarted": "2024-07-18 16:41:18.550",
+      "dateFinished": "2024-07-18 16:41:18.568",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%python\n",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-18 16:41:18.548",
+      "progress": 0,
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721295678547_51616090",
+      "id": "paragraph_1721295678547_51616090",
+      "dateCreated": "2024-07-18 16:41:18.548",
+      "status": "READY"
+    }
+  ],
+  "name": "ploy_2",
+  "id": "2K5VVS5R5",
+  "defaultInterpreterGroup": "spark",
+  "version": "0.11.1",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": true
+  },
+  "info": {}
+}

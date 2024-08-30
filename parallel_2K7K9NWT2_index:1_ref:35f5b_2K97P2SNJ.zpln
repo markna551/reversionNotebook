@@ -1,0 +1,63 @@
+{
+  "paragraphs": [
+    {
+      "title": "",
+      "text": "%python\n\n\nprint(123)",
+      "user": "anonymous",
+      "dateUpdated": "2024-08-30 09:17:00.297",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "123\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1724984220297_208569235",
+      "id": "paragraph_1724984143555_1369659728",
+      "dateCreated": "2024-08-30 09:17:00.297",
+      "dateStarted": "2024-08-30 09:17:10.035",
+      "dateFinished": "2024-08-30 09:17:12.506",
+      "status": "FINISHED"
+    }
+  ],
+  "name": "parallel_2K7K9NWT2_index:1_ref:35f5b",
+  "id": "2K97P2SNJ",
+  "defaultInterpreterGroup": "spark",
+  "version": "0.11.1",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "cron": "10 17 9 30 8 ?",
+    "releaseresource": true,
+    "isZeppelinNotebookCronEnable": true
+  },
+  "info": {
+    "inIsolatedMode": true,
+    "isRunning": true,
+    "startTime": "2024-08-30_09-17-10"
+  }
+}

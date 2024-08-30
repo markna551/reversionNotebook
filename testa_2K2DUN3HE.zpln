@@ -1,6 +1,47 @@
 {
   "paragraphs": [
     {
+      "text": "%python\r\nimport datetime\r\nimport time\r\n\r\nnoteName \u003d \"wf_PR\"\r\npTitle \u003d z.getInterpreterContext().getParagraphTitle()\r\na \u003d 2\r\nprint(f\"Paragraph [{noteName}]-[{pTitle}] Start at {datetime.datetime.now()}\")\r\nprint(f\"Param a\u003d{a}\")\r\ntime.sleep(5)\r\nprint(f\"Paragraph [{noteName}]-[{pTitle}] End at {datetime.datetime.now()}\")",
+      "user": "anonymous",
+      "dateUpdated": "2024-08-01 21:38:28.409",
+      "progress": 0,
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Paragraph [wf_PR]-[None] Start at 2024-08-01 21:38:28.426666\nParam a\u003d2\nParagraph [wf_PR]-[None] End at 2024-08-01 21:38:33.435230\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721965099304_2011939209",
+      "id": "paragraph_1721965099304_2011939209",
+      "dateCreated": "2024-07-26 10:38:19.304",
+      "dateStarted": "2024-08-01 21:38:28.412",
+      "dateFinished": "2024-08-01 21:38:33.439",
+      "status": "FINISHED"
+    },
+    {
       "title": "",
       "text": "%python\nimport requests\nrunParallelLogUrl \u003d \"https://49.0.196.113:11010/auth/login\"\nverify \u003d False\n# if isVerify \u003d\u003d 1:\n#     verify \u003d True\nuser \u003d {\n    \"username\" : \"auttakrit\",\n    \"password\" : \"12345678Ab!\"\n}\ntenantId \u003d 1\nbody \u003d {\"user\" : user,\n    \"tenantId\": tenantId\n}\nresponse \u003d requests.post(runParallelLogUrl, json \u003d body, verify\u003dverify)\nprint(response.json().get(\u0027oauth\u0027).get(\u0027access_token\u0027))\n# if response.status_code \u003d\u003d 200:\n#     return response.json()\n# else:\n#     if response.json() is not None:\n#         raise ValueError(f\"Run parallel fail case by: {response.json().get(\u0027message\u0027)}\")\n#     raise ValueError(\"Run parallel fail\")\n",
       "user": "anonymous",
@@ -24,11 +65,11 @@
         "forms": {}
       },
       "results": {
-        "code": "ERROR",
+        "code": "SUCCESS",
         "msg": [
           {
             "type": "TEXT",
-            "data": "Fail to execute line 2: import requests\nTraceback (most recent call last):\n  File \"/tmp/python6638474587295938966/zeppelin_python.py\", line 162, in \u003cmodule\u003e\n    exec(code, _zcUserQueryNameSpace)\n  File \"\u003cstdin\u003e\", line 2, in \u003cmodule\u003e\nModuleNotFoundError: No module named \u0027requests\u0027\n"
+            "data": "/usr/local/lib/python3.6/site-packages/urllib3/connectionpool.py:1052: InsecureRequestWarning: Unverified HTTPS request is being made to host \u002749.0.196.113\u0027. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings\n  InsecureRequestWarning,\neyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiIxIiwidXNlcl9uYW1lIjoiYXV0dGFrcml0Iiwic2NvcGUiOlsicmVhZCIsIndyaXRlIl0sImV4cCI6MTcyMTk4NTU5NiwiYXV0aG9yaXRpZXMiOlsiU1VQRVJfQURNSU4iLCJTWVNURU0iLCJERVZFTE9QRVIiLCJVU0VSIl0sImp0aSI6IjRiZGQ3YzhhLWQxNzgtNDczOS04Yjc2LTEzYzA3MTM3ODJhNiIsImNsaWVudF9pZCI6Imd0ZW1wbGFyLWNsaWVudCJ9.-K4KbV6uoTE0Z99NMupVyc6Rgeq513hvWfZ2ACYCjjc\n"
           }
         ]
       },
@@ -38,24 +79,24 @@
       "jobName": "paragraph_1721206077529_1834806381",
       "id": "paragraph_1721206077529_1834806381",
       "dateCreated": "2024-07-17 15:47:57.530",
-      "dateStarted": "2024-07-18 11:29:00.922",
-      "dateFinished": "2024-07-18 11:29:02.988",
-      "status": "ERROR"
+      "dateStarted": "2024-07-26 16:02:02.782",
+      "dateFinished": "2024-07-26 16:02:03.311",
+      "status": "FINISHED"
     },
     {
-      "text": "%pyspark\n\nprint(123)\n",
+      "text": "%spark\n\nprint(123)\n",
       "user": "anonymous",
-      "dateUpdated": "2024-07-25 02:15:30.813",
+      "dateUpdated": "2024-08-05 15:21:41.483",
       "progress": 0,
       "config": {
         "editorSetting": {
-          "language": "python",
+          "language": "scala",
           "editOnDblClick": false,
           "completionKey": "TAB",
           "completionSupport": true
         },
         "colWidth": 12.0,
-        "editorMode": "ace/mode/python",
+        "editorMode": "ace/mode/scala",
         "fontSize": 9.0,
         "results": {},
         "enabled": true
@@ -69,7 +110,7 @@
         "msg": [
           {
             "type": "TEXT",
-            "data": "123\n"
+            "data": "123"
           }
         ]
       },
@@ -79,8 +120,8 @@
       "jobName": "paragraph_1721206103482_1750006957",
       "id": "paragraph_1721206103482_1750006957",
       "dateCreated": "2024-07-17 15:48:23.482",
-      "dateStarted": "2024-07-25 02:15:30.817",
-      "dateFinished": "2024-07-25 02:15:30.852",
+      "dateStarted": "2024-08-05 15:21:41.487",
+      "dateFinished": "2024-08-05 15:22:17.624",
       "status": "FINISHED"
     },
     {
@@ -120,8 +161,8 @@
       "jobName": "paragraph_1721206115075_91595819",
       "id": "paragraph_1721206115075_91595819",
       "dateCreated": "2024-07-17 15:48:35.075",
-      "dateStarted": "2024-07-23 17:41:18.880",
-      "dateFinished": "2024-07-23 17:41:21.284",
+      "dateStarted": "2024-07-26 16:02:29.520",
+      "dateFinished": "2024-07-26 16:02:29.537",
       "status": "FINISHED"
     },
     {
@@ -161,8 +202,8 @@
       "jobName": "paragraph_1721731278877_841078025",
       "id": "paragraph_1721731278877_841078025",
       "dateCreated": "2024-07-23 17:41:18.877",
-      "dateStarted": "2024-07-23 17:41:56.373",
-      "dateFinished": "2024-07-23 17:41:58.970",
+      "dateStarted": "2024-07-26 16:02:29.621",
+      "dateFinished": "2024-07-26 16:02:31.178",
       "status": "ERROR"
     },
     {
@@ -192,7 +233,14 @@
   "noteForms": {},
   "angularObjects": {},
   "config": {
-    "isZeppelinNotebookCronEnable": true
+    "isZeppelinNotebookCronEnable": true,
+    "looknfeel": "default",
+    "personalizedMode": "false",
+    "cronExecutingUser": "",
+    "cronExecutingRoles": ""
   },
-  "info": {}
+  "info": {
+    "inIsolatedMode": true,
+    "startTime": "2024-07-26_16-02-00"
+  }
 }

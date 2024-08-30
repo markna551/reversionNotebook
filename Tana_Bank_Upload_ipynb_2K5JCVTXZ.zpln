@@ -1,55 +1,206 @@
 {
   "paragraphs": [
     {
-      "text": "%python\n%python\n\nimport numpy",
+      "text": "%python\n%python\n\nimport GG222",
       "user": "anonymous",
-      "dateUpdated": "2024-07-25 23:10:37.186",
+      "dateUpdated": "2024-07-26 06:11:55.257",
       "progress": 0,
       "config": {
-        "editorMode": "ace/mode/python",
-        "editorHide": false,
-        "colWidth": 12.0,
-        "fontSize": 9.0,
-        "enabled": true,
-        "results": {},
+        "lineNumbers": true,
+        "tableHide": false,
         "editorSetting": {
           "language": "python",
           "editOnDblClick": false,
           "completionSupport": true
         },
-        "tableHide": false
+        "editorMode": "ace/mode/python",
+        "colWidth": 12.0,
+        "editorHide": false,
+        "fontSize": 9.0,
+        "title": true,
+        "results": {},
+        "enabled": false
       },
       "settings": {
         "params": {},
         "forms": {}
       },
-      "results": {
-        "code": "ERROR",
-        "msg": [
-          {
-            "type": "TEXT",
-            "data": "Traceback (most recent call last):\n  File \"/tmp/python5878545735001340904/zeppelin_python.py\", line 152, in \u003cmodule\u003e\n    code \u003d compile(\u0027\\n\u0027.join(stmts), \u0027\u003cstdin\u003e\u0027, \u0027exec\u0027, ast.PyCF_ONLY_AST, 1)\n  File \"\u003cstdin\u003e\", line 2\n    %python\n    ^\nSyntaxError: invalid syntax\n"
-          }
-        ]
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721946971025_520758676",
+      "id": "paragraph_1721946971025_520758676",
+      "dateCreated": "2024-07-26 05:36:11.025",
+      "status": "READY"
+    },
+    {
+      "text": "%python\nInsert new",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-26 06:03:26.348",
+      "progress": 0,
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
       },
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1721753124481_888538073",
-      "id": "20240723-234524_1113753577",
-      "dateCreated": "2024-07-23 23:45:24.481",
-      "dateStarted": "2024-07-25 23:10:00.922",
-      "dateFinished": "2024-07-25 23:10:00.933",
-      "status": "ERROR"
+      "jobName": "paragraph_1721948599206_9452009",
+      "id": "paragraph_1721948599206_9452009",
+      "dateCreated": "2024-07-26 06:03:19.206",
+      "status": "READY"
     },
     {
-      "text": "%python\n%python\nimport os\n\ndef activate_virtualenv(venv_path):\n    activate_script \u003d os.path.join(venv_path, \u0027bin\u0027, \u0027activate_this.py\u0027)\n    with open(activate_script) as file_:\n        exec(file_.read(), dict(__file__\u003dactivate_script))\n\n# Paths to virtual environments\nvenv \u003d \"/home/blendata/bld-genesis-agent/project_path/bde_management/zeppelin_dev_2/virtualenvs/env2\"\n# Activate and use venv\nactivate_virtualenv(venv)\n",
+      "text": "%python\nInsert new",
       "user": "anonymous",
-      "dateUpdated": "2024-07-25 23:04:36.696",
+      "dateUpdated": "2024-07-26 06:05:18.099",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9.0,
+        "editorHide": false,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721948718096_1204897087",
+      "id": "paragraph_1721948718096_1204897087",
+      "dateCreated": "2024-07-26 06:05:18.097",
+      "status": "READY"
+    },
+    {
+      "text": "%python\n%python\n\nimport BBBB222",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-26 06:01:03.688",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python",
+        "colWidth": 12.0,
+        "editorHide": false,
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721946970326_1456833080",
+      "id": "paragraph_1721946970326_1456833080",
+      "dateCreated": "2024-07-26 05:36:10.326",
+      "status": "READY"
+    },
+    {
+      "text": "%python\n%python\n\nimport GG222",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-26 05:36:11.683",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python",
+        "colWidth": 12.0,
+        "editorHide": false,
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721946971681_464319216",
+      "id": "paragraph_1721946971681_464319216",
+      "dateCreated": "2024-07-26 05:36:11.681",
+      "status": "READY"
+    },
+    {
+      "text": "%python\n",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-26 05:39:46.029",
+      "progress": 0,
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721947184973_846367138",
+      "id": "paragraph_1721947184973_846367138",
+      "dateCreated": "2024-07-26 05:39:44.973",
+      "status": "READY"
+    },
+    {
+      "text": "%python\n%python\n\nimport GG222",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-26 05:36:08.077",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python",
+        "colWidth": 12.0,
+        "editorHide": false,
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721946968066_1759061736",
+      "id": "paragraph_1721946968066_1759061736",
+      "dateCreated": "2024-07-26 05:36:08.066",
+      "status": "READY"
+    },
+    {
+      "text": "%python\n%python\nimport GGOs\n\ndef activate_virtualenv(venv_path):\n    activate_script \u003d os.path.join(venv_path, \u0027bin\u0027, \u0027activate_this.py\u0027)\n    with open(activate_script) as file_:\n        exec(file_.read(), dict(__file__\u003dactivate_script))\n\n# Paths to virtual environments\nvenv \u003d \"/home/blendata/bld-genesis-agent/project_path/bde_management/zeppelin_dev_2/virtualenvs/env2\"\n# Activate and use venv\nactivate_virtualenv(venv)\n",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-25 23:27:06.754",
       "progress": 0,
       "config": {
         "editorMode": "ace/mode/python",
-        "editorHide": true,
+        "editorHide": false,
         "colWidth": 12.0,
         "fontSize": 9.0,
         "enabled": true,
@@ -85,18 +236,22 @@
       "status": "ERROR"
     },
     {
-      "text": "%python\n%python\nimport os\n\ncwd \u003d os.getcwd() \nprint(\"Current working directory:\", cwd)\n",
+      "text": "%python\n%python\nimport os\n\ncwd \u003d GGmmmmmmmm) \nprint(\"Current working directory:\", cwd)\n",
       "user": "anonymous",
-      "dateUpdated": "2024-07-25 23:04:56.281",
+      "dateUpdated": "2024-07-25 23:27:06.755",
       "progress": 0,
       "config": {
         "editorMode": "ace/mode/python",
-        "editorHide": true,
+        "editorHide": false,
         "colWidth": 12.0,
         "fontSize": 9.0,
         "enabled": true,
         "results": {},
-        "editorSetting": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
         "tableHide": false
       },
       "settings": {

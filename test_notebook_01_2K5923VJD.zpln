@@ -1,0 +1,34 @@
+{
+  "paragraphs": [
+    {
+      "title": "",
+      "text": "",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-24 21:18:12.151",
+      "progress": 0,
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721830692140_3447805",
+      "id": "paragraph_1721830692140_3447805",
+      "dateCreated": "2024-07-24 21:18:12.140",
+      "status": "READY"
+    }
+  ],
+  "name": "test_notebook_01",
+  "id": "2K5923VJD",
+  "defaultInterpreterGroup": "spark",
+  "version": "0.11.1",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": true
+  },
+  "info": {}
+}

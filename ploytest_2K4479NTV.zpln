@@ -1,0 +1,485 @@
+{
+  "paragraphs": [
+    {
+      "title": "",
+      "text": "%python\n\nimport test_spark\n\ntest_spark.test(\"Hello, Guy\")",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-18 11:37:01.793",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Hello, Guy\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721274882083_102195735",
+      "id": "paragraph_1721274882083_102195735",
+      "dateCreated": "2024-07-18 10:54:42.083",
+      "dateStarted": "2024-07-18 11:37:01.795",
+      "dateFinished": "2024-07-18 11:37:01.807",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%python\n\ntest_spark.test(\"test\")",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-18 11:04:09.122",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "test\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721275011914_343681801",
+      "id": "paragraph_1721275011914_343681801",
+      "dateCreated": "2024-07-18 10:56:51.914",
+      "dateStarted": "2024-07-18 11:04:09.125",
+      "dateFinished": "2024-07-18 11:04:09.133",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%python\nprint(\"Hello, Guy\")",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-18 11:09:55.370",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Hello, Guy\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721275302545_29340083",
+      "id": "paragraph_1721275302545_29340083",
+      "dateCreated": "2024-07-18 11:01:42.545",
+      "dateStarted": "2024-07-18 11:09:55.376",
+      "dateFinished": "2024-07-18 11:09:55.387",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%python\nprint(\u0027Happy birthday to you\u0027)",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-18 11:10:28.990",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Happy birthday to you\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721275795372_1366035785",
+      "id": "paragraph_1721275795372_1366035785",
+      "dateCreated": "2024-07-18 11:09:55.372",
+      "dateStarted": "2024-07-18 11:10:29.006",
+      "dateFinished": "2024-07-18 11:10:29.021",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%python\ntest_spark.test(\u0027a\u0027)",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-18 11:15:23.544",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "a\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721275828992_1717453736",
+      "id": "paragraph_1721275828992_1717453736",
+      "dateCreated": "2024-07-18 11:10:28.992",
+      "dateStarted": "2024-07-18 11:15:23.548",
+      "dateFinished": "2024-07-18 11:15:23.562",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%python\n\nimport test_mpl_config",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-18 11:19:05.032",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Fail to execute line 3: import test_mpl_config\nTraceback (most recent call last):\n  File \"/tmp/python4190872596285578540/zeppelin_python.py\", line 167, in \u003cmodule\u003e\n    exec(code, _zcUserQueryNameSpace)\n  File \"\u003cstdin\u003e\", line 3, in \u003cmodule\u003e\n  File \"/tmp/python4190872596285578540/test_mpl_config.py\", line 19, in \u003cmodule\u003e\n    import matplotlib\nModuleNotFoundError: No module named \u0027matplotlib\u0027\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721276045691_1176804896",
+      "id": "paragraph_1721276045691_1176804896",
+      "dateCreated": "2024-07-18 11:14:05.691",
+      "dateStarted": "2024-07-18 11:19:05.036",
+      "dateFinished": "2024-07-18 11:19:05.044",
+      "status": "ERROR"
+    },
+    {
+      "text": "%python\n\nimport blendata_util_py",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-18 11:19:14.291",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Fail to execute line 3: import blendata_util_py\nTraceback (most recent call last):\n  File \"/tmp/python4190872596285578540/zeppelin_python.py\", line 167, in \u003cmodule\u003e\n    exec(code, _zcUserQueryNameSpace)\n  File \"\u003cstdin\u003e\", line 3, in \u003cmodule\u003e\n  File \"/tmp/python4190872596285578540/blendata_util_py.py\", line 2, in \u003cmodule\u003e\n    import requests\nModuleNotFoundError: No module named \u0027requests\u0027\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721276301991_919932453",
+      "id": "paragraph_1721276301991_919932453",
+      "dateCreated": "2024-07-18 11:18:21.991",
+      "dateStarted": "2024-07-18 11:19:14.296",
+      "dateFinished": "2024-07-18 11:19:14.340",
+      "status": "ERROR"
+    },
+    {
+      "text": "%python\n\nimport test_spark_ploy\n\nprint (rectangle(100000 , 50000))",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-18 12:05:33.888",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "5000000000\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721276354292_1460609854",
+      "id": "paragraph_1721276354292_1460609854",
+      "dateCreated": "2024-07-18 11:19:14.292",
+      "dateStarted": "2024-07-18 12:05:33.890",
+      "dateFinished": "2024-07-18 12:05:33.896",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%python\ndef rectangle(w,h):\n    area \u003d w * h\n    return w * h \n    \n    w \u003d int (input(\"width \u003d \"))\n    h \u003d int (input(\"heigth \u003d \"))\n\n\nprint (rectangle(5 , 5))",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-18 12:03:15.550",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "25\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721276767551_696233539",
+      "id": "paragraph_1721276767551_696233539",
+      "dateCreated": "2024-07-18 11:26:07.551",
+      "dateStarted": "2024-07-18 12:03:15.552",
+      "dateFinished": "2024-07-18 12:03:15.558",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%python\nprint(\u0027Happy birthday to you\u0027)\nprint(\u0027Happy birthday to you\u0027)\nprint(\u0027Happy birthday dear Anna\u0027)\nprint(\u0027Happy birthday to you.\u0027)\n\nprint(\u0027Happy birthday to you\u0027)\nprint(\u0027Happy birthday to you\u0027)\nprint(\u0027Happy birthday dear Anna\u0027)\nprint(\u0027Happy birthday to you.\u0027)\n\nprint(\u0027Happy birthday to you\u0027)\nprint(\u0027Happy birthday to you\u0027)\nprint(\u0027Happy birthday dear Anna\u0027)\nprint(\u0027Happy birthday to you.\u0027)",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-18 12:16:29.102",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Happy birthday to you\nHappy birthday to you\nHappy birthday dear Anna\nHappy birthday to you.\nHappy birthday to you\nHappy birthday to you\nHappy birthday dear Anna\nHappy birthday to you.\nHappy birthday to you\nHappy birthday to you\nHappy birthday dear Anna\nHappy birthday to you.\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721278350352_1374945096",
+      "id": "paragraph_1721278350352_1374945096",
+      "dateCreated": "2024-07-18 11:52:30.352",
+      "dateStarted": "2024-07-18 12:16:29.104",
+      "dateFinished": "2024-07-18 12:16:29.121",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%python\ndef happybday():\n    print(\u0027Happy birthday to you\u0027)\n    print(\u0027Happy birthday to you\u0027)\n    print(\u0027Happy birthday dear Anna\u0027)\n    print(\u0027Happy birthday to you.\u0027)\n    \nprint happybday()\n    \n    ",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-18 12:21:50.031",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Traceback (most recent call last):\n  File \"/tmp/python4190872596285578540/zeppelin_python.py\", line 152, in \u003cmodule\u003e\n    code \u003d compile(\u0027\\n\u0027.join(stmts), \u0027\u003cstdin\u003e\u0027, \u0027exec\u0027, ast.PyCF_ONLY_AST, 1)\n  File \"\u003cstdin\u003e\", line 8\n    print happybday()\n          ^\nSyntaxError: invalid syntax\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721279696747_675257080",
+      "id": "paragraph_1721279696747_675257080",
+      "dateCreated": "2024-07-18 12:14:56.748",
+      "dateStarted": "2024-07-18 12:21:50.033",
+      "dateFinished": "2024-07-18 12:21:50.037",
+      "status": "ERROR"
+    },
+    {
+      "text": "%python\n",
+      "user": "anonymous",
+      "dateUpdated": "2024-07-18 12:20:08.295",
+      "progress": 0,
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1721280008295_370044026",
+      "id": "paragraph_1721280008295_370044026",
+      "dateCreated": "2024-07-18 12:20:08.295",
+      "status": "READY"
+    }
+  ],
+  "name": "ploytest",
+  "id": "2K4479NTV",
+  "defaultInterpreterGroup": "spark",
+  "version": "0.11.1",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": true
+  },
+  "info": {}
+}
