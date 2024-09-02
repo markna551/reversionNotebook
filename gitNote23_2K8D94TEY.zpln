@@ -2,19 +2,19 @@
   "paragraphs": [
     {
       "title": "",
-      "text": "%python",
+      "text": "%python\n\npr",
       "user": "anonymous",
-      "dateUpdated": "2024-09-02 11:05:52.573",
+      "dateUpdated": "2024-09-02 11:06:39.184",
       "progress": 0,
       "config": {
         "editorSetting": {
-          "language": "scala",
+          "language": "python",
           "editOnDblClick": false,
           "completionKey": "TAB",
           "completionSupport": true
         },
         "colWidth": 12.0,
-        "editorMode": "ace/mode/scala",
+        "editorMode": "ace/mode/python",
         "fontSize": 9.0,
         "results": {},
         "enabled": true
@@ -32,7 +32,7 @@
       "status": "READY"
     }
   ],
-  "name": "gitNote2",
+  "name": "gitNote23",
   "id": "2K8D94TEY",
   "defaultInterpreterGroup": "spark",
   "version": "0.11.1",
