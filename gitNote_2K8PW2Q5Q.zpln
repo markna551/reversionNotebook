@@ -1,0 +1,75 @@
+{
+  "paragraphs": [
+    {
+      "title": "",
+      "text": "%python\n\nprint(123)",
+      "user": "anonymous",
+      "dateUpdated": "2024-09-02 11:04:16.762",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "123\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1725249830517_680186754",
+      "id": "paragraph_1725249830517_680186754",
+      "dateCreated": "2024-09-02 11:03:50.517",
+      "dateStarted": "2024-09-02 11:04:16.777",
+      "dateFinished": "2024-09-02 11:04:20.083",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%python\n",
+      "user": "anonymous",
+      "dateUpdated": "2024-09-02 11:04:16.772",
+      "progress": 0,
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1725249856772_158045632",
+      "id": "paragraph_1725249856772_158045632",
+      "dateCreated": "2024-09-02 11:04:16.772",
+      "status": "READY"
+    }
+  ],
+  "name": "gitNote",
+  "id": "2K8PW2Q5Q",
+  "defaultInterpreterGroup": "spark",
+  "version": "0.11.1",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": true
+  },
+  "info": {}
+}
