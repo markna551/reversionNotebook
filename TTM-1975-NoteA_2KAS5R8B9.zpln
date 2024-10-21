@@ -1,0 +1,132 @@
+{
+  "paragraphs": [
+    {
+      "title": "",
+      "text": "%sql\nselect * from employee_p_2",
+      "user": "anonymous",
+      "dateUpdated": "2024-10-21 10:26:33.145",
+      "progress": 100,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9.0,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "emp_id": "string",
+                      "emp_nickname": "string",
+                      "emp_age": "string",
+                      "start_date": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "emp_id\temp_nickname\temp_age\tstart_date\n1\tpat\t25\t2024-09-10\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://dev-2c8g-0002:4044/jobs/job?id\u003d0"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1729481071698_1529590624",
+      "id": "paragraph_1729481071698_1529590624",
+      "dateCreated": "2024-10-21 10:24:31.698",
+      "dateStarted": "2024-10-21 19:15:00.326",
+      "dateFinished": "2024-10-21 19:16:07.142",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%sql\n",
+      "user": "anonymous",
+      "dateUpdated": "2024-10-21 10:25:02.585",
+      "progress": 0,
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1729481102585_1028013979",
+      "id": "paragraph_1729481102585_1028013979",
+      "dateCreated": "2024-10-21 10:25:02.585",
+      "dateStarted": "2024-10-21 19:16:07.168",
+      "dateFinished": "2024-10-21 19:16:07.181",
+      "status": "FINISHED"
+    }
+  ],
+  "name": "test TTM-1975",
+  "id": "2KAS5R8B9",
+  "defaultInterpreterGroup": "spark",
+  "version": "0.11.1",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": true,
+    "looknfeel": "default",
+    "personalizedMode": "false",
+    "cronExecutingUser": "",
+    "cronExecutingRoles": ""
+  },
+  "info": {
+    "inIsolatedMode": false,
+    "isRunning": false
+  }
+}
