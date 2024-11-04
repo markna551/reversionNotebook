@@ -1,0 +1,127 @@
+{
+  "paragraphs": [
+    {
+      "title": "",
+      "text": "%sql\nselect * from n_mock_100 limit 10;",
+      "user": "anonymous",
+      "dateUpdated": "2024-11-04 14:26:27.592",
+      "progress": 100,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9.0,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "id": "string",
+                      "first_name": "string",
+                      "email": "string",
+                      "gender": "string",
+                      "ip_address": "string",
+                      "mark": "string",
+                      "date": "string",
+                      "num": "string",
+                      "num_int": "string",
+                      "date_1": "string",
+                      "gtp_timestamp1": "string",
+                      "input_source_name": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "id\tfirst_name\temail\tgender\tip_address\tmark\tdate\tnum\tnum_int\tdate_1\tgtp_timestamp1\tinput_source_name\n1\tDenice\tdgyles0@psu.edu\tFemale\t197.176.160.145\ttrue\t8/14/2022\t86.704\t1218\t2023-05-17\t2024-10-25 11:12:02.435\tfile:///data/zeus/upload/mock1000_multitype_1729829461315.csv\n2\tVerina\tvbourges1@opera.com\tFemale\t111.26.204.219\ttrue\t4/4/2023\t55.591\t4185\t2023-05-17\t2024-10-25 11:12:02.435\tfile:///data/zeus/upload/mock1000_multitype_1729829461315.csv\n3\tQuill\tqmacmarcuis2@deviantart.com\tMale\t151.32.38.123\tfalse\t4/6/2023\t54.498\t4226\t2023-05-17\t2024-10-25 11:12:02.435\tfile:///data/zeus/upload/mock1000_multitype_1729829461315.csv\n4\tCinda\tcsantoro3@usda.gov\tFemale\t123.232.83.36\tfalse\t6/10/2022\t72.579\t245\t2023-05-17\t2024-10-25 11:12:02.435\tfile:///data/zeus/upload/mock1000_multitype_1729829461315.csv\n5\tSheilah\tsbartolomeo4@skype.com\tFemale\t150.192.79.186\ttrue\t12/28/2022\t38.136\t3918\t2023-05-17\t2024-10-25 11:12:02.435\tfile:///data/zeus/upload/mock1000_multitype_1729829461315.csv\n6\tL;urette\tlsalasar5@weebly.com\tFemale\t118.49.64.103\ttrue\t7/30/2022\t69.538\t3434\t2023-05-17\t2024-10-25 11:12:02.435\tfile:///data/zeus/upload/mock1000_multitype_1729829461315.csv\n7\tAxel\tagodain6@ehow.com\tMale\t41.135.88.48\tfalse\t2/21/2023\t70.942\t3532\t2023-05-17\t2024-10-25 11:12:02.435\tfile:///data/zeus/upload/mock1000_multitype_1729829461315.csv\n8\tHugues\thmorhall7@example.com\tMale\t52.76.81.229\ttrue\t12/31/2022\t74.361\t1948\t2023-05-17\t2024-10-25 11:12:02.435\tfile:///data/zeus/upload/mock1000_multitype_1729829461315.csv\n9\tKamila\tkandrosik8@vinaora.com\tFemale\t109.141.16.24\ttrue\t5/21/2022\t77.576\t3414\t2023-05-17\t2024-10-25 11:12:02.435\tfile:///data/zeus/upload/mock1000_multitype_1729829461315.csv\n10\tBelle\tbfollett9@simplemachines.org\tFemale\t55.155.135.170\ttrue\t3/25/2023\t41.986\t1104\t2023-05-17\t2024-10-25 11:12:02.435\tfile:///data/zeus/upload/mock1000_multitype_1729829461315.csv\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://dev-2c8g-0002:4043/jobs/job?id\u003d0"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1730705122282_2095051390",
+      "id": "paragraph_1730705122282_2095051390",
+      "dateCreated": "2024-11-04 14:25:22.282",
+      "dateStarted": "2024-11-04 14:25:45.137",
+      "dateFinished": "2024-11-04 14:26:25.395",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%sql\n",
+      "user": "anonymous",
+      "dateUpdated": "2024-11-04 14:25:45.134",
+      "progress": 0,
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1730705145134_284767014",
+      "id": "paragraph_1730705145134_284767014",
+      "dateCreated": "2024-11-04 14:25:45.134",
+      "status": "READY"
+    }
+  ],
+  "name": "ืn_05",
+  "id": "2KDW6D789",
+  "defaultInterpreterGroup": "spark",
+  "version": "0.11.1",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": true
+  },
+  "info": {}
+}
