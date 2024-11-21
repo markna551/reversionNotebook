@@ -42,6 +42,36 @@
       "status": "FINISHED"
     },
     {
+      "text": "%spark.spark\n12345",
+      "user": "anonymous",
+      "dateUpdated": "2024-11-21 16:17:54.612",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1732180669299_953757497",
+      "id": "paragraph_1732180669299_953757497",
+      "dateCreated": "2024-11-21 16:17:49.299",
+      "status": "READY"
+    },
+    {
       "title": "",
       "text": "%sql\nshow tables",
       "user": "anonymous",
