@@ -1,0 +1,491 @@
+{
+  "paragraphs": [
+    {
+      "text": "%md\n# 1.runParallelLog",
+      "user": "anonymous",
+      "dateUpdated": "2024-10-01 12:41:17.142",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch1\u003e1.runParallelLog\u003c/h1\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1727761277142_1099417637",
+      "id": "paragraph_1723621928594_320042113",
+      "dateCreated": "2024-10-01 12:41:17.142",
+      "status": "READY"
+    },
+    {
+      "text": "%md\nnew Note markLAAAA LDasdasdgdsfge round10",
+      "user": "anonymous",
+      "dateUpdated": "2024-11-27 11:28:35.949",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003enew Note markLAAAA LDasdasdgdsfge round10\u003c/p\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1732679489480_1832423110",
+      "id": "paragraph_1732679489480_1832423110",
+      "dateCreated": "2024-11-27 10:51:29.480",
+      "dateStarted": "2024-11-27 11:28:35.949",
+      "dateFinished": "2024-11-27 11:28:35.955",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%md\n## Description\nthis function provide user to run notebook parallel in same note and also provide user to set parameter to notebook.\n\n## Parameters\n- **concurrentParallel:** The number of parallel Notebook to run in the same time.(can be set to be less than the number of total parallel notebook.)\n- **language:** The code language that user can choose only \"python\" or \"scala\".\n- **timeSleep:** The delay time that is setup to start this Notebook Run parallel service. The best practice should be 10 second. (Unit is second.)\n- **timeout:** Fill in the specific time for timeout. (Unit is second.)\n- **notebookAddParameterRequest:** To setup the parameter under the parallel Notebook.\n    - **notebookId:** The Notebook ID.\n    - **titleName:** Fill in a title name of the selected Notebook. If the user needs to replace the parameter of all titles under this Notebook,\n        users can use \"all\" instead of titleName parameter.\n    - **parameter:** Name of parameter.\n    - **value:** Value of parameter.\n- **description** For enable function to return all result of all paragraph\n\n## Result\nUrl of **public** notebook that save all the result in the parallel job and the status of notebook. if success all the paragraph will return success otherwise will return fail.\n\n**#Note: Url of **public** notebook will expire in 30 days**\n",
+      "user": "anonymous",
+      "dateUpdated": "2024-10-01 12:41:17.142",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eDescription\u003c/h2\u003e\n\u003cp\u003ethis function provide user to run notebook parallel in same note and also provide user to set parameter to notebook.\u003c/p\u003e\n\u003ch2\u003eParameters\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003econcurrentParallel:\u003c/strong\u003e The number of parallel Notebook to run in the same time.(can be set to be less than the number of total parallel notebook.)\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003elanguage:\u003c/strong\u003e The code language that user can choose only \u0026ldquo;python\u0026rdquo; or \u0026ldquo;scala\u0026rdquo;.\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003etimeSleep:\u003c/strong\u003e The delay time that is setup to start this Notebook Run parallel service. The best practice should be 10 second. (Unit is second.)\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003etimeout:\u003c/strong\u003e Fill in the specific time for timeout. (Unit is second.)\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003enotebookAddParameterRequest:\u003c/strong\u003e To setup the parameter under the parallel Notebook.\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003enotebookId:\u003c/strong\u003e The Notebook ID.\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003etitleName:\u003c/strong\u003e Fill in a title name of the selected Notebook. If the user needs to replace the parameter of all titles under this Notebook,\u003cbr /\u003e\nusers can use \u0026ldquo;all\u0026rdquo; instead of titleName parameter.\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eparameter:\u003c/strong\u003e Name of parameter.\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003evalue:\u003c/strong\u003e Value of parameter.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003edescription\u003c/strong\u003e For enable function to return all result of all paragraph\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eResult\u003c/h2\u003e\n\u003cp\u003eUrl of \u003cstrong\u003epublic\u003c/strong\u003e notebook that save all the result in the parallel job and the status of notebook. if success all the paragraph will return success otherwise will return fail.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e#Note: Url of \u003cstrong\u003epublic\u003c/strong\u003e notebook will expire in 30 days\u003c/strong\u003e\u003c/p\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1727761277142_12854790",
+      "id": "paragraph_1723621927631_1870857155",
+      "dateCreated": "2024-10-01 12:41:17.142",
+      "status": "READY"
+    },
+    {
+      "text": "%md\n## Step\n1. Import blendata_util_py\n2. Fill all **Parameters**. \n3. Call function **blendata_util_py.hera_api_runParallelLog(...)**.",
+      "user": "anonymous",
+      "dateUpdated": "2024-10-01 12:41:17.143",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eStep\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003eImport blendata_util_py\u003c/li\u003e\n\u003cli\u003eFill all \u003cstrong\u003eParameters\u003c/strong\u003e.\u003c/li\u003e\n\u003cli\u003eCall function \u003cstrong\u003eblendata_util_py.hera_api_runParallelLog(\u0026hellip;)\u003c/strong\u003e.\u003c/li\u003e\n\u003c/ol\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1727761277142_1627964831",
+      "id": "paragraph_1723621922100_741037934",
+      "dateCreated": "2024-10-01 12:41:17.143",
+      "status": "READY"
+    },
+    {
+      "text": "%python\r\nimport blendata_util_py\r\n#Example1 run parallel with no parameter \r\n\r\ntimeSleep \u003d 10\r\ntimeout \u003d 300\r\nconcurrentParallel \u003d 1\r\nlanguage \u003d \"python\"\r\nnotebookAddParameterRequest \u003d [\r\n    {\r\n        \"notebookId\": \"2K63AR51P\",\r\n        \"addParameterMapFromTitle\": {\r\n        }\r\n    },\r\n    {\r\n        \"notebookId\": \"2K63AR51P\",\r\n        \"addParameterMapFromTitle\": {\r\n        }\r\n    }\r\n]\r\ndescription \u003d False\r\n\r\nresult  \u003d blendata_util_py.hera_api_runParallelLog(timeSleep,timeout,concurrentParallel,language,notebookAddParameterRequest, description)\r\nprint(result)",
+      "user": "anonymous",
+      "dateUpdated": "2024-10-01 12:41:17.143",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "/home/blendata/.local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099: InsecureRequestWarning: Unverified HTTPS request is being made to host \u0027172.20.31.6\u0027. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings\n  warnings.warn(\n{\u0027parallel_2K63AR51P_index:0_ref:83d92\u0027: {\u0027status\u0027: \u0027SUCCESS\u0027, \u0027url\u0027: \u0027http://172.20.31.7:8998/#/notebook/2K6VVA33Q?pubNToken\u003d4004a6eab2c04831afa60207041ae529\u0027}, \u0027parallel_2K63AR51P_index:1_ref:6c907\u0027: {\u0027status\u0027: \u0027SUCCESS\u0027, \u0027url\u0027: \u0027http://172.20.31.7:8998/#/notebook/2K631EX8D?pubNToken\u003d0205983b9207405f9208cb6cdb1248f9\u0027}}\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1727761277143_272971150",
+      "id": "paragraph_1723622535694_1801921522",
+      "dateCreated": "2024-10-01 12:41:17.143",
+      "status": "READY"
+    },
+    {
+      "text": "%python\r\nimport blendata_util_py\r\n\r\n#Example2 run parallel with parameter\r\ntimeSleep \u003d 10\r\ntimeout \u003d 300\r\nconcurrentParallel \u003d 1\r\nlanguage \u003d \"python\"\r\nnotebookAddParameterRequest \u003d [\r\n    {\r\n        \"notebookId\": \"2K4G26M8B\",\r\n        \"addParameterMapFromTitle\": {\r\n            \"Title1\": {\r\n                \"a\" : \"round1 work\"\r\n            },\r\n            \"Title2\": {\r\n                \"b\" : 10\r\n            },\r\n            \"Title3\": {\r\n                \"c\": [\"valueA\",\"valueB\",\"valueC\",\"valueD\"]\r\n            },\r\n            \"all\": {\r\n                \"b\": 1.3,\r\n                \"d\": 4.9\r\n            }\r\n        }\r\n    },\r\n    {\r\n        \"notebookId\": \"2K4G26M8B\",\r\n        \"addParameterMapFromTitle\": {\r\n            \"Title1\": {\r\n                \"a\" : \"round2 work\"\r\n            },\r\n            \"Title2\": {\r\n                \"b\": 20\r\n            },\r\n            \"Title3\": {\r\n                \"c\": [10,12,14,15]\r\n            },\r\n            \"all\": {\r\n                \"b\": 5.1,\r\n                \"d\": 4.9\r\n            }\r\n        }\r\n    }\r\n]\r\ndescription \u003d True\r\n\r\nresult  \u003d blendata_util_py.hera_api_runParallelLog(timeSleep,timeout,concurrentParallel,language,notebookAddParameterRequest, description)\r\nprint(result)",
+      "user": "anonymous",
+      "dateUpdated": "2024-10-01 12:41:17.143",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "/home/blendata/.local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099: InsecureRequestWarning: Unverified HTTPS request is being made to host \u0027172.20.31.6\u0027. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings\n  warnings.warn(\n{\u0027parallel_2K4G26M8B_index:1_ref:bcc48\u0027: {\u0027url\u0027: \u0027http://172.20.31.7:8998/#/notebook/2K735VATC?pubNToken\u003d036956cd2db647c1954a752816b17369\u0027, \u0027message\u0027: [{\u0027title\u0027: \u0027Title1\u0027, \u0027code\u0027: \u0027SUCCESS\u0027, \u0027msg\u0027: [{\u0027type\u0027: \u0027TEXT\u0027, \u0027data\u0027: \u0027round2 work\\n\u0027}]}, {\u0027title\u0027: \u0027Title2\u0027, \u0027code\u0027: \u0027SUCCESS\u0027, \u0027msg\u0027: [{\u0027type\u0027: \u0027TEXT\u0027, \u0027data\u0027: \u002740\\n\u0027}]}, {\u0027title\u0027: \u0027Title3\u0027, \u0027code\u0027: \u0027SUCCESS\u0027, \u0027msg\u0027: [{\u0027type\u0027: \u0027TEXT\u0027, \u0027data\u0027: \u002710\\n12\\n14\\n15\\n\u0027}]}, {\u0027title\u0027: None, \u0027code\u0027: \u0027SUCCESS\u0027, \u0027msg\u0027: [{\u0027type\u0027: \u0027TEXT\u0027, \u0027data\u0027: \u002710.0\\n\u0027}]}]}, \u0027parallel_2K4G26M8B_index:0_ref:0ac2c\u0027: {\u0027url\u0027: \u0027http://172.20.31.7:8998/#/notebook/2K66JAAHQ?pubNToken\u003d2169df949426473eb78875afed9ddf4c\u0027, \u0027message\u0027: [{\u0027title\u0027: \u0027Title1\u0027, \u0027code\u0027: \u0027SUCCESS\u0027, \u0027msg\u0027: [{\u0027type\u0027: \u0027TEXT\u0027, \u0027data\u0027: \u0027round1 work\\n\u0027}]}, {\u0027title\u0027: \u0027Title2\u0027, \u0027code\u0027: \u0027SUCCESS\u0027, \u0027msg\u0027: [{\u0027type\u0027: \u0027TEXT\u0027, \u0027data\u0027: \u002730\\n\u0027}]}, {\u0027title\u0027: \u0027Title3\u0027, \u0027code\u0027: \u0027SUCCESS\u0027, \u0027msg\u0027: [{\u0027type\u0027: \u0027TEXT\u0027, \u0027data\u0027: \u0027valueA\\nvalueB\\nvalueC\\nvalueD\\n\u0027}]}, {\u0027title\u0027: None, \u0027code\u0027: \u0027SUCCESS\u0027, \u0027msg\u0027: [{\u0027type\u0027: \u0027TEXT\u0027, \u0027data\u0027: \u00276.2\\n\u0027}]}]}}\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1727761277143_195568964",
+      "id": "paragraph_1723626950742_749358381",
+      "dateCreated": "2024-10-01 12:41:17.143",
+      "status": "READY"
+    },
+    {
+      "text": "%python\nimport blendata_util_py\n\n#Example3 run parallel with differant notebook id\ntimeSleep \u003d 10\ntimeout \u003d 300\nconcurrentParallel \u003d 2\nlanguage \u003d \"python\"\nnotebookAddParameterRequest \u003d [\n    {\n        \"notebookId\": \"2K4G26M8B\",\n        \"addParameterMapFromTitle\": {\n            \"Title1\": {\n                \"a\" : \"round2 work\"\n            },\n            \"Title2\": {\n                \"b\": 20\n            },\n            \"Title3\": {\n                \"c\": [10,12,14,15]\n            },\n            \"all\": {\n                \"b\": 5.1,\n                \"d\": 4.9\n            }\n        }\n    },\n    {\n     \"notebookId\" : \"2K63AR51P\",\n     \"addParameterMapFromTitle\": {}\n    }\n]\ndescription \u003d True\n\nresult  \u003d blendata_util_py.hera_api_runParallelLog(timeSleep,timeout,concurrentParallel,language,notebookAddParameterRequest, description)\nprint(result)",
+      "user": "anonymous",
+      "dateUpdated": "2024-10-01 12:41:17.143",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "/home/blendata/.local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099: InsecureRequestWarning: Unverified HTTPS request is being made to host \u0027172.20.31.6\u0027. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings\n  warnings.warn(\n{\u0027parallel_2K63AR51P_index:1_ref:3608f\u0027: {\u0027url\u0027: \u0027http://172.20.31.7:8998/#/notebook/2K4NHJFZ7?pubNToken\u003dd899a71722c94d548373601777cf28d1\u0027, \u0027message\u0027: [{\u0027title\u0027: \u0027\u0027, \u0027code\u0027: \u0027SUCCESS\u0027, \u0027msg\u0027: [{\u0027type\u0027: \u0027TEXT\u0027, \u0027data\u0027: \"Loading class `com.mysql.jdbc.Driver\u0027. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver\u0027. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.\\n+---------+-------------------+-----------+\\n|namespace|          tableName|isTemporary|\\n+---------+-------------------+-----------+\\n|  default|           agg_nnnn|      false|\\n|  default|     customers_pong|      false|\\n|  default|              order|      false|\\n|  default|           sdk_p_01|      false|\\n|  default|        sdk_ploy_01|      false|\\n|  default|        sdk_ploy_02|      false|\\n|  default|        sdk_ploy_08|      false|\\n|  default|        sdk_ploy_09|      false|\\n|  default|        sdk_ploy_10|      false|\\n|  default|        t_f_boolean|      false|\\n|  default|        tc_sdk_0001|      false|\\n|  default|        tc_sdk_0004|      false|\\n|  default|    tc_sdk_0005_dis|      false|\\n|  default|    tc_sdk_0006_csv|      false|\\n|  default|tc_sdk_0006_parquet|      false|\\n|  default|     tc_sdk_0007_c1|      false|\\n|  default|     tc_sdk_0007_c2|      false|\\n|  default|     tc_sdk_0007_c3|      false|\\n|  default|        tc_sdk_0008|      false|\\n|  default|        tc_sdk_0011|      false|\\n+---------+-------------------+-----------+\\nonly showing top 20 rows\\n\\n\"}]}, {\u0027title\u0027: None, \u0027code\u0027: \u0027SUCCESS\u0027, \u0027msg\u0027: [{\u0027type\u0027: \u0027TEXT\u0027, \u0027data\u0027: \u0027500\\n\u0027}]}, {\u0027title\u0027: None, \u0027code\u0027: \u0027SUCCESS\u0027, \u0027msg\u0027: [{\u0027type\u0027: \u0027TEXT\u0027, \u0027data\u0027: \u0027test success\\n\u0027}]}, {\u0027title\u0027: None, \u0027code\u0027: \u0027SUCCESS\u0027, \u0027msg\u0027: []}]}, \u0027parallel_2K4G26M8B_index:0_ref:7c85e\u0027: {\u0027url\u0027: \u0027http://172.20.31.7:8998/#/notebook/2K687GC9F?pubNToken\u003dc1089629089d42419766fbcf7f7d39c5\u0027, \u0027message\u0027: [{\u0027title\u0027: \u0027Title1\u0027, \u0027code\u0027: \u0027SUCCESS\u0027, \u0027msg\u0027: [{\u0027type\u0027: \u0027TEXT\u0027, \u0027data\u0027: \u0027round2 work\\n\u0027}]}, {\u0027title\u0027: \u0027Title2\u0027, \u0027code\u0027: \u0027SUCCESS\u0027, \u0027msg\u0027: [{\u0027type\u0027: \u0027TEXT\u0027, \u0027data\u0027: \u002740\\n\u0027}]}, {\u0027title\u0027: \u0027Title3\u0027, \u0027code\u0027: \u0027SUCCESS\u0027, \u0027msg\u0027: [{\u0027type\u0027: \u0027TEXT\u0027, \u0027data\u0027: \u002710\\n12\\n14\\n15\\n\u0027}]}, {\u0027title\u0027: None, \u0027code\u0027: \u0027SUCCESS\u0027, \u0027msg\u0027: [{\u0027type\u0027: \u0027TEXT\u0027, \u0027data\u0027: \u002710.0\\n\u0027}]}]}}\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1727761277143_2019673712",
+      "id": "paragraph_1723627524945_1095988489",
+      "dateCreated": "2024-10-01 12:41:17.143",
+      "status": "READY"
+    },
+    {
+      "title": "",
+      "text": "%md\n# 2.encryptUser",
+      "user": "anonymous",
+      "dateUpdated": "2024-10-01 12:41:17.143",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch1\u003e2.encryptUser\u003c/h1\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1727761277143_340565771",
+      "id": "paragraph_1723620907546_753865317",
+      "dateCreated": "2024-10-01 12:41:17.143",
+      "status": "READY"
+    },
+    {
+      "text": "%md\n\n## Description\nthis function used to create encryptUser to authenticate the notebook when running a **cron** job that uses function of blendata_util\n\n## Parameters\n- **username:** the username of blendata enterprise user.\n- **password:** the password of blendata enterprise user.\n\n## Result\nEncrypt text from your user in blendata enterprise",
+      "user": "anonymous",
+      "dateUpdated": "2024-10-01 12:41:17.143",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eDescription\u003c/h2\u003e\n\u003cp\u003ethis function used to create encryptUser to authenticate the notebook when running a \u003cstrong\u003ecron\u003c/strong\u003e job that uses function of blendata_util\u003c/p\u003e\n\u003ch2\u003eParameters\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eusername:\u003c/strong\u003e the username of blendata enterprise user.\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003epassword:\u003c/strong\u003e the password of blendata enterprise user.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eResult\u003c/h2\u003e\n\u003cp\u003eEncrypt text from your user in blendata enterprise\u003c/p\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1727761277143_894558457",
+      "id": "paragraph_1723621113083_1623511739",
+      "dateCreated": "2024-10-01 12:41:17.143",
+      "status": "READY"
+    },
+    {
+      "text": "%md\n## Step\n1. Import blendata_util_py\n2. Fill all **Parameters**. \n3. Call function **blendata_util_py.encryptUser(...)**.\n4. Get encrypt text from result and replace into value of **hera.user** in zeppelin-site.xml.\n5. Restart Zeppelin.",
+      "user": "anonymous",
+      "dateUpdated": "2024-10-01 12:41:17.143",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eStep\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003eImport blendata_util_py\u003c/li\u003e\n\u003cli\u003eFill all \u003cstrong\u003eParameters\u003c/strong\u003e.\u003c/li\u003e\n\u003cli\u003eCall function \u003cstrong\u003eblendata_util_py.encryptUser(\u0026hellip;)\u003c/strong\u003e.\u003c/li\u003e\n\u003cli\u003eGet encrypt text from result and replace into value of \u003cstrong\u003ehera.user\u003c/strong\u003e in zeppelin-site.xml.\u003c/li\u003e\n\u003cli\u003eRestart Zeppelin.\u003c/li\u003e\n\u003c/ol\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1727761277143_1421654708",
+      "id": "paragraph_1723621105360_2044011244",
+      "dateCreated": "2024-10-01 12:41:17.143",
+      "status": "READY"
+    },
+    {
+      "text": "%python\n\n#Example\nimport blendata_util_py\n\nusername \u003d \"your_username\"\npassword \u003d \"your_password\"\n\nblendata_util_py.encryptUser(\"your_username\", \"your_password\")\n",
+      "user": "anonymous",
+      "dateUpdated": "2024-10-01 12:41:17.143",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\u0027PBQpLLS2ZKLEW37CJhOSm8c+HPDFAbOqLEchHAgV8uFxN2XjhXSLsnQkz24ig+HN\u0027\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1727761277143_279968340",
+      "id": "paragraph_1723621454770_1156880742",
+      "dateCreated": "2024-10-01 12:41:17.143",
+      "status": "READY"
+    },
+    {
+      "text": "",
+      "user": "anonymous",
+      "dateUpdated": "2024-10-01 12:41:17.143",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1727761277143_1785435696",
+      "id": "paragraph_1723621827344_2138818050",
+      "dateCreated": "2024-10-01 12:41:17.143",
+      "status": "READY"
+    }
+  ],
+  "name": "banktest24",
+  "id": "2KB3AEZ7W",
+  "defaultInterpreterGroup": "spark",
+  "version": "0.11.0-SNAPSHOT",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": true
+  },
+  "info": {}
+}
