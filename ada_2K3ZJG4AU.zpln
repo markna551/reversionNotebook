@@ -32,7 +32,7 @@
       "dateStarted": "2025-08-01 16:12:59.714",
       "runBy": "super_admin",
       "dateFinished": "2024-07-17 09:40:11.093",
-      "status": "RUNNING"
+      "status": "ABORT"
     },
     {
       "text": "%python\nprint(\u0027H2\u0027)",
