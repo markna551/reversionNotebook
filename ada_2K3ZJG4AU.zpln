@@ -2,9 +2,9 @@
   "paragraphs": [
     {
       "title": "",
-      "text": "%pyspark\n\nimport blendata_util\n",
+      "text": "%pyspark\n\nprint(\u0027H1\u0027)\n",
       "user": "anonymous",
-      "dateUpdated": "2024-07-17 09:39:44.543",
+      "dateUpdated": "2025-08-01 16:12:59.708",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -23,29 +23,21 @@
         "params": {},
         "forms": {}
       },
-      "results": {
-        "code": "ERROR",
-        "msg": [
-          {
-            "type": "TEXT",
-            "data": "Fail to execute line 3: import blendata_util\nTraceback (most recent call last):\n  File \"/tmp/python2879395937004732843/zeppelin_python.py\", line 167, in \u003cmodule\u003e\n    exec(code, _zcUserQueryNameSpace)\n  File \"\u003cstdin\u003e\", line 3, in \u003cmodule\u003e\n  File \"/tmp/python2879395937004732843/blendata_util.py\", line 2, in \u003cmodule\u003e\n    import requests\nModuleNotFoundError: No module named \u0027requests\u0027\n"
-          }
-        ]
-      },
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
       "jobName": "paragraph_1721183903667_1929543816",
       "id": "paragraph_1721183903667_1929543816",
       "dateCreated": "2024-07-17 09:38:23.667",
-      "dateStarted": "2024-07-17 09:39:44.545",
+      "dateStarted": "2025-08-01 16:12:59.714",
+      "runBy": "super_admin",
       "dateFinished": "2024-07-17 09:40:11.093",
-      "status": "ERROR"
+      "status": "RUNNING"
     },
     {
-      "text": "%python\nprint(12341256)",
+      "text": "%python\nprint(\u0027H2\u0027)",
       "user": "anonymous",
-      "dateUpdated": "2025-06-05 10:21:23.271",
+      "dateUpdated": "2025-08-01 16:13:00.862",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -69,7 +61,7 @@
         "msg": [
           {
             "type": "TEXT",
-            "data": "12341256\n"
+            "data": "H2\n"
           }
         ]
       },
@@ -79,9 +71,9 @@
       "jobName": "paragraph_1721183984544_435489755",
       "id": "paragraph_1721183984544_435489755",
       "dateCreated": "2024-07-17 09:39:44.544",
-      "dateStarted": "2025-06-05 10:21:23.284",
-      "runBy": "auttakrit",
-      "dateFinished": "2025-06-05 10:21:27.841",
+      "dateStarted": "2025-08-01 16:13:00.866",
+      "runBy": "super_admin",
+      "dateFinished": "2025-08-01 16:13:04.852",
       "status": "FINISHED"
     },
     {
