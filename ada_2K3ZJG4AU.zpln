@@ -2,9 +2,9 @@
   "paragraphs": [
     {
       "title": "",
-      "text": "%pyspark\n\nprint(\u0027H1\u0027)\n",
+      "text": "%pyspark\n\nprint(\u0027H1 New\u0027)\n",
       "user": "anonymous",
-      "dateUpdated": "2025-08-01 16:12:59.708",
+      "dateUpdated": "2025-08-01 17:31:05.980",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -35,9 +35,9 @@
       "status": "ABORT"
     },
     {
-      "text": "%python\nprint(\u0027H2\u0027)",
+      "text": "%python\nprint(\u0027H2 New\u0027)",
       "user": "anonymous",
-      "dateUpdated": "2025-08-01 16:13:00.862",
+      "dateUpdated": "2025-08-01 17:31:09.371",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -55,15 +55,6 @@
       "settings": {
         "params": {},
         "forms": {}
-      },
-      "results": {
-        "code": "SUCCESS",
-        "msg": [
-          {
-            "type": "TEXT",
-            "data": "H2\n"
-          }
-        ]
       },
       "apps": [],
       "runtimeInfos": {},
