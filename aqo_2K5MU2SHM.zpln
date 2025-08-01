@@ -1,9 +1,9 @@
 {
   "paragraphs": [
     {
-      "text": "%sql\n\nshow tables",
+      "text": "%sql\n\nshow tables;grfdah",
       "user": "anonymous",
-      "dateUpdated": "2024-08-26 14:47:46.821",
+      "dateUpdated": "2025-08-01 17:01:51.817",
       "progress": 0,
       "config": {
         "editorSetting": {
